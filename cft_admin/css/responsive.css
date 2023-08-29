@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+@media (max-width: 2200px) {
+
+}
+
+@media (max-width: 1900px) {
+
+}
+
+@media (max-width: 1600px) { 
+  
+}
+
+
+@media (max-width: 1366px) {
+    .commonFormInner, .commonFormDateInner { width: calc(33% - 15px); }
+}
+
+@media (max-width: 1280px) {
+    
+}
+
+@media (max-width: 1199px) {
+    .commonFormInner, .commonFormDateInner { width: calc(50% - 15px); }
+    .graphMain { min-height: auto; }
+}
+@media (max-width: 991px) {
+    .m-grid.m-grid--ver-desktop.m-grid--desktop>.m-grid__item.m-grid__item--fluid { width: 100%; }
+    .m-header--fixed .m-header { display: block; position: fixed; background-color: #fff; }
+    .md_mainContent { padding-top: 0; }
+    .m-body .m-wrapper { margin-left: 0; }
+    .m-body .savoline_sidebar.md_mainSidebar { box-shadow: 13px 0 20px rgb(0 0 0 / 23%); -webkit-box-shadow: 13px 0 20px rgb(0 0 0 / 23%); -moz-box-shadow: 13px 0 20px rgb(0 0 0 / 23%); }
+    .md_mainSidebar.open { left: 0; }
+    .right_btn { display: block; }
+    .headerDropdown { padding-right: 45px; }
+    .tableSearch { width: 60%; }
+}
+@media (max-width: 767px) {
+    .paginationMain { display: block; text-align: center; }
+    .paginationMain p { margin: 0 0 10px; }
+    .customPagination { display: flex; justify-content: center; }
+    .boxInner { padding: 15px; }
+    .m-body .m-content { padding: 20px 15px; }
+}
+@media (max-width: 575px) {
+    .m-body .m-content { padding: 20px 15px; }
+    .commonFormInner, .commonFormDateInner { width: 100%; }
+    .tableSearchArea { display: block; }
+    .tableSearch { margin: 0 0 20px; width: 100%; }
+}
+@media (max-width: 480px) {
+    .eikaebana-logo img { width: 160px; }
+    .m-aside-left { width: 260px; padding: 15px; }
+    .m-stack.m-stack--general { padding-bottom: 15px; margin-bottom: 15px; text-align: left; }
+
+}
+
+
+@media (max-width: 375px) {
+
+}
+
