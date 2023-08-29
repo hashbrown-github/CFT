@@ -984,7 +984,7 @@ font-family: 'SFProDisplay-Regular'; color: #000; align-items: center; position:
 
 
 /* START aboutPageMain */
-.aboutPageMain { overflow: hidden; position: relative; padding: 80px 0 100px; }
+.aboutPageMain { overflow: hidden; position: relative; padding: 60px 0 80px; }
 .aboutPageMain .headingOther h2 { font-size: 36px;  line-height: 48px; }
 .aboutPageRight { position: relative; margin: 0; top: 50px; }
 .aboutPageRight .headingOther { margin: 0 0 20px; }
@@ -993,19 +993,19 @@ font-family: 'SFProDisplay-Regular'; color: #000; align-items: center; position:
 .aboutPageRight ul { margin: 0 0 20px; padding-left: 30px; display: inline-block; width: 100%;}
 .aboutPageRight ul li { list-style: none; margin: 0 0 10px; position: relative; font-size: 16px; line-height: 22px; }
 .aboutPageRight ul li::before {content: "";left: -25px; position: absolute;top: 12px;background: #000;width: 16px;height: 1px;}
-.aboutPageLeft { position: relative; margin: 0 0 30px; text-align: left; padding-left: 50px; }
-.aboutPageLeftInner { width: 460px; position: relative; display: inline-block; }
+.aboutPageLeft {position: relative;margin: 0 0 30px;text-align: left; }
+.aboutPageLeftInner {width: 430px;position: relative;display: inline-block;}
 .aboutPageLeftInner:before { background: transparent; border: 1px solid #ec5b24; content: ""; position: absolute; left: 30px; top: 30px; width: 100%; height: 100%; }
 .aboutPageLeftInner img { width: 100%; margin: 0; position: relative; height: 100%; }
-.aboutPageLeft img.about_small { position: absolute; right: 40px;  bottom: -150px;  z-index: 9;}
+.aboutPageLeft img.about_small { position: absolute;right: 40px;bottom: -150px;z-index: 9;width: 280px;}
 .aboutPageLeftInner img.about_2 { position: absolute; left: -34px; top: -34px; width: auto; height: auto; width: 164px; }
-.aboutList { display: flex; } 
-.aboutListInner { width: 50%;}
+.aboutList { display: flex;flex-wrap: wrap; margin: 45px 0 0;} 
+.aboutListInner {width: 50%;}
 /* END aboutPageMain */
 
 
 /* START missionMain */
-.missionMain { background: #fff; overflow: hidden; position: relative; padding: 60px 0 70px; }
+.missionMain { background: #fff; overflow: hidden; position: relative; padding: 60px 0 60px; }
 .missionMain .headingOther { margin: 0 0 10px; }
 .missionMain .headingOther h2 { margin: 0 0 20px; font-size: 36px;  line-height: 48px; }
 .missionMain .headingOther p { margin: 0 0 30px; line-height: 22px; }
