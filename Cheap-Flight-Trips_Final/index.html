@@ -1,0 +1,1277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="csrf-token" content="wvpCAxAP4XAMZjJ94zyhGhQdCdgxZY0MxDMHUzr7">
+	<title>:: Home ::</title>
+
+	<!-- CSS -->
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" />
+	<link rel="stylesheet" href="css/core.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+
+</head>
+<body>
+
+<!-- START banner -->	
+<section class="banner">
+	<!-- START header -->
+	<header>
+		<div class="container-fluid">
+			<div class="headerArea">
+				<div class="headerLeft">
+					<a class="headerLogo" href="index.html">
+						<img src="images/logo_new.svg" alt="Logo">  <span>| Cheap Flight Travels</span>
+					</a>
+					<a class="headerInnerLogo" href="index.html">
+						<img src="images/logo_grey.svg" alt="Logo">  <span>| Cheap Flight Travels</span>
+					</a>
+				</div>
+
+				<div class="headerRight">
+					<ul>
+						<li><span class="material-symbols-outlined">phone</span>+1 (623) 670-8030</li>
+						<!-- <li><a href="signin.html"><span class="material-symbols-outlined">person</span>Login / Register</a></li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- END header -->
+	<!-- START bannerArea -->
+	<div class="bannerArea">
+		<div class="container">
+			<div class="bannerAreaInner">
+				<h1>Fly to the <span>Top Destination</span> Around the Globe</h1>
+				<p>Flight Deals Tailored for You</p>
+			</div>
+		</div>
+	</div>
+	<!-- END bannerArea -->
+</section>
+<!-- END banner -->
+	
+
+<!-- START bannerForm -->
+<div class="bannerForm">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">	
+				<div class="bannerFormOuter">
+					<div class="bannerRadio">
+						<div class="form-group">
+							<label class="radioCustom">Roundtrip
+								<input type="radio" checked="checked" id="tab1" name="tab">
+								<span class="checkmark"></span>
+							</label>
+							<label class="radioCustom">Oneway
+								<input type="radio" id="tab2" name="tab">
+								<span class="checkmark"></span>
+							</label>
+							<label class="radioCustom">Advanced search
+								<input type="radio" id="tab3" name="tab">
+								<span class="checkmark"></span>
+							</label>
+						</div>
+					</div>
+					
+					<div class="bannerFormAll">
+						<div class="bannerFormInner">
+							<div class="bannerFromTo bannerTo1">
+								<div class="form-group">
+									<div class="input-group">
+										<input class="form-control" data-bs-toggle="tooltip" data-bs-placement="bottom" title="City or Airport" placeholder="City or Airport" type="text" />
+										<span class="input-group-text">
+											<i class="material-symbols-outlined">location_on</i> 
+										</span>	
+									</div>
+									<span class="error">Please enter departure airport / city.</span>
+								</div>
+							</div>
+							<div class="bannerFromTo bannerTo2">
+								<div class="form-group">
+									<div class="input-group">
+										<input class="form-control" placeholder="To" type="text" name="sub_email">
+										<span class="input-group-text">
+											<i class="material-symbols-outlined">location_on</i> 
+										</span>
+									</div>
+									<span class="error" style="display: none;">Please enter destination airport / city.</span>
+								</div>
+							</div>
+							<div class="dateInner">
+								<div class="form-group">
+									<input type="date" class="form-control" id="datepicker" placeholder="Pick a Date" />
+									<span class="error" style="display: none;">Please select a departure date.</span>
+								</div>
+							</div>
+							<div class="dateInner">
+								<div class="form-group">
+									<input type="date" class="form-control" id="datepicker2" placeholder="Pick a Date" />
+									<span class="error" style="display: none;">Please select a return date.</span>
+								</div>
+							</div>
+							<div class="commonPerson bannerPerson">
+								<div class="dropdown">
+									<a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> 1 Passenger<span class="material-symbols-outlined">expand_more</span>
+									</a>
+									<ul class="dropdown-menu">
+										<h5>Passenger</h5>
+										<div class="dropInner">
+											<li>
+												<p>Adults (12+ Yrs)</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Children (2-11 Yrs)</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Infant (Below 2 Yrs)</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Army Forces</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Senior Citizen</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Student</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+										</div>
+									</ul>
+								</div>
+								<span class="error">Please specify the number of passengers.</span>
+							</div>
+							<div class="commonPerson bannerPerson2">
+								<div class="dropdown">
+									<a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+										Premium Economy<span class="material-symbols-outlined">expand_more</span>
+									</a>
+									<ul class="dropdown-menu">
+										<h5>Class</h5>
+										<li><a class="dropdown-item" href="#">Economy</a></li>
+										<li><a class="dropdown-item active" href="#">Premium Economy</a></li>
+										<li><a class="dropdown-item" href="#">Business Class</a></li>
+										<li><a class="dropdown-item" href="#">First Class</a></li>
+									</ul>
+								</div>
+								<span class="error" style="display: none;">Please choose a travel class.</span>
+							</div>
+							<div class="bannerBtn">
+								<a href="#" class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="bannerFormAll">
+						<div class="bannerFormInner">
+							<div class="bannerFromTo bannerTo1">
+								<div class="form-group">
+									<div class="input-group">
+										<input class="form-control" placeholder="City or Airport" type="text" name="sub_email">
+										<span class="input-group-text">
+											<i class="material-symbols-outlined">location_on</i> 
+										</span>	
+									</div>
+									<span class="error">Please enter departure airport / city.</span>
+								</div>
+							</div>
+							<div class="bannerFromTo bannerTo2">
+								<div class="form-group">
+									<div class="input-group">
+										<input class="form-control" placeholder="To" type="text" name="sub_email">
+										<span class="input-group-text">
+											<i class="material-symbols-outlined">location_on</i> 
+										</span>
+									</div>
+									<span class="error" style="display: none;">Please enter destination airport / city.</span>
+								</div>
+							</div>
+							<div class="dateInner">
+								<div class="form-group">
+									<input type="date" class="form-control" id="datepicker" placeholder="Pick a Date" />
+									<span class="error" style="display: none;">Please select a departure date.</span>
+								</div>
+							</div>
+							<div class="dateInner">
+								<div class="form-group">
+									<input type="date" class="form-control" id="datepicker2" placeholder="Pick a Date" />
+									<span class="error" style="display: none;">Please select a return date.</span>
+								</div>
+							</div>
+							<div class="commonPerson bannerPerson">
+								<div class="dropdown">
+									<a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> 1 Passenger<span class="material-symbols-outlined">expand_more</span>
+									</a>
+									<ul class="dropdown-menu">
+										<h5>Passenger</h5>
+										<div class="dropInner">
+											<li>
+												<p>Adults (12+ Yrs)</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Children (2-11 Yrs)</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Infant (Below 2 Yrs)</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Army Forces</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Senior Citizen</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Student</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+										</div>
+									</ul>
+								</div>
+								<span class="error" style="display: none;">Please specify the number of passengers.</span>
+							</div>
+							<div class="commonPerson bannerPerson2">
+								<div class="dropdown">
+									<a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+										Premium Economy<span class="material-symbols-outlined">expand_more</span>
+									</a>
+									<ul class="dropdown-menu">
+										<h5>Class</h5>
+										<li><a class="dropdown-item" href="#">Economy</a></li>
+										<li><a class="dropdown-item active" href="#">Premium Economy</a></li>
+										<li><a class="dropdown-item" href="#">Business Class</a></li>
+										<li><a class="dropdown-item" href="#">First Class</a></li>
+									</ul>
+								</div>
+								<span class="error">Please choose a travel class.</span>
+							</div>
+							<div class="bannerBtn">
+								<a href="#" class="btn btnTheme" data-bs-toggle="modal" data-bs-target="#waitingModal">Search</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="bannerFormAll">
+						<div class="bannerFormInner">
+							<div class="bannerInner_3">
+								<div class="form-group">
+									<input class="form-control" placeholder="Departure airport" type="text" name="sub_email">
+									<span class="error">Please enter departure airport / city.</span>
+								</div>
+							</div>
+							<div class="bannerInner_3">
+								<div class="form-group">
+									<input class="form-control" placeholder="Arrival airport" type="text" name="sub_email">
+									<span class="error" style="display: none;">Please enter destination airport / city.</span>
+								</div>
+							</div>
+							<div class="dateInner dateInner_3">
+								<div class="form-group">
+									<input type="date" class="form-control" name="date" id="datepicker5" placeholder="Departing" min="2023-08-14">
+									<span class="error" style="display: none;">Please select a departure date.</span>
+								</div>
+							</div>
+							<div class="commonPerson bannerPerson2 bannerInner_3">
+								<div class="dropdown">
+									<a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+										Premium Economy<span class="material-symbols-outlined">expand_more</span>
+									</a>
+									<ul class="dropdown-menu">
+										<h5>Class</h5>
+									<li><a class="dropdown-item" href="#">Economy</a></li>
+									<li><a class="dropdown-item active" href="#">Premium Economy</a></li>
+									<li><a class="dropdown-item" href="#">Business Class</a></li>
+									<li><a class="dropdown-item" href="#">First Class</a></li>
+									</ul>
+								</div>
+								<span class="error" style="display: none;">Please specify the number of passengers.</span>
+							</div>
+							<div class="bannerInner_3">
+								<div class="form-group">
+									<input class="form-control" placeholder="Departure airport" type="text" name="sub_email">
+									<span class="error" style="display: none;">Please enter departure airport / city.</span>
+								</div>
+							</div>
+							<div class="bannerInner_3">
+								<div class="form-group">
+									<input class="form-control" placeholder="Arrival airport" type="text" name="sub_email">
+									<span class="error">Please enter destination airport / city.</span>
+								</div>
+							</div>
+							<div class="dateInner dateInner_3">
+								<div class="form-group">
+									<input type="date" class="form-control" name="date" id="datepicker5" placeholder="Departing" min="2023-08-14">
+									<span class="error" style="display: none;">Please select a return date.</span>
+								</div>
+							</div>
+							<div class="commonPerson bannerPerson bannerInner_3">
+								<div class="dropdown">
+									<a type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> 1 Passenger<span class="material-symbols-outlined">expand_more</span>
+									</a>
+									<ul class="dropdown-menu">
+										<h5>Passenger</h5>
+										<div class="dropInner">
+											<li>
+												<p>Adults (12+ Yrs)</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Children (2-11 Yrs)</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Infant (Below 2 Yrs)</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Army Forces</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Senior Citizen</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+											<li>
+												<p>Student</p>
+												<div class="btn-group">
+													<button type="button" class="btn"><span class="material-symbols-outlined">remove</span></button>
+													<button type="button" class="btn">2</button>
+													<button type="button" class="btn"><span class="material-symbols-outlined">add</span></button>
+												</div>
+											</li>
+										</div>
+									</ul>
+								</div>
+								<span class="error" style="display: none;">Please choose a travel class.</span>
+							</div>
+							<div class="bannerBtn bannerBtn_3">
+								<a href="#" class="btn btnTransparent"><span class="material-symbols-outlined">add</span>Add another flight</a>
+								<a href="#" class="btn btnTheme">Search</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END bannerForm -->
+	
+	
+<!-- START aboutMain -->
+<section class="aboutMain">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="aboutLeft">
+					<div class="headingOther">
+						<h4>Catch More Flights for Less</h4>
+						<h2>A Great Place for <span>Globetrotters</span></h2>
+					</div>
+					<p>At Cheap Flight Tickets, we specialize in making your flight booking experience seamless and budget
+						friendly. Whether you're seeking the picturesque landscapes of Europe, the rich cultural heritage of
+						Asia, or the natural wonders of South America, we offer an extensive list of destinations to choose from,
+						catering to every type of traveller. We are committed to providing you with the best flight deals,
+						ensuring your travel dreams become a reality without spending a fortune.</p>
+					<p>We provide cheap flight options to different parts of the world, ensuring that you have access to the
+						most incredible destinations. Our dedicated team of travel experts is always at your service, helping you
+						find the perfect flight itinerary that suits your preferences and budget.</p>
+					<ul>
+						<li>Exclusive Flight Offers</li>
+						<li>24/7 Personalized Assistance</li>
+					</ul>
+				</div>	
+			</div>
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="aboutRight">
+					<img class="img-fluid about_1" src="images/aeroplane.svg" alt="img"> 
+					<div class="aboutRightInner">
+						<img class="img-fluid about_2" src="images/shape_1.svg" alt="img">
+					
+						<img class="img-fluid" src="images/about.jpg" alt="img" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END aboutMain -->
+
+<!-- START sec_2_Main -->
+<section class="sec_2_Main">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6 col-lg-8 col-md-12 col-sm-12">
+				<div class="headingOther">
+					<h4>Travel Unbound</h4>
+					<h2>Book <span>Domestic &amp; International</span> Flights</h2>
+				</div>	
+			</div>
+		</div>
+		<div class="row align-items-center">
+			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+				<div class="sec_2_Inner">
+					<figure>
+						<img src="images/London_1.jpg" alt="img">
+					</figure>
+					<div class="sec_2_Data">
+						<h4>New York City</h4>
+						<ul>
+							<li>Flights</li>
+							<li>Hotels</li>
+							<li>Car Hire</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+				<div class="sec_2_Inner">
+					<figure>
+						<img src="images/Goa_1.jpg" alt="img">
+					</figure>
+					<div class="sec_2_Data">
+						<h4>Los Angeles</h4>
+						<ul>
+							<li>Flights</li>
+							<li>Hotels</li>
+							<li>Car Hire</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+				<div class="sec_2_Inner">
+					<figure>
+						<img src="images/Paris_1.jpg" alt="img">
+					</figure>
+					<div class="sec_2_Data">
+						<h4>Chicago </h4>
+						<ul>
+							<li>Flights</li>
+							<li>Hotels</li>
+							<li>Car Hire</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+				<div class="sec_2_Inner">
+					<figure>
+						<img src="images/Toranto_1.jpg" alt="img" />
+					</figure>
+					<div class="sec_2_Data">
+						<h4>Miami </h4>
+						<ul>
+							<li>Flights</li>
+							<li>Hotels</li>
+							<li>Car Hire</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+				<div class="sec_2_Inner">
+					<figure>
+						<img src="images/London_1.jpg" alt="img" />
+					</figure>
+					<div class="sec_2_Data">
+						<h4>San Francisco</h4>
+						<ul>
+							<li>Flights</li>
+							<li>Hotels</li>
+							<li>Car Hire</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+				<div class="sec_2_Inner">
+					<figure>
+						<img src="images/Mumbai_1.jpg" alt="img" />
+					</figure>
+					<div class="sec_2_Data">
+						<h4>Las Vegas</h4>
+						<ul>
+							<li>Flights</li>
+							<li>Hotels</li>
+							<li>Car Hire</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END sec_2_Main -->
+
+<!-- START sec_3_Main -->
+<section class="sec_3_Main">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6 col-lg-8 col-md-12 col-sm-12">
+				<div class="headingOther">
+					<h4>Popular Destinations</h4>
+					<h2>Book Flights to <span>Best Places</span> Around the Globe <span></span></h2>
+				</div>	
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-md-12 col-sm-12">
+				<div class="sec_3_Inner">
+					<figure>
+						<img src="images/maldives.jpg" alt="img" />
+					</figure>
+					<div class="sec_3_Data">
+						<h4>Washington, D.C.</h4>
+						<ul>
+							<li><span class="material-symbols-outlined">schedule</span> 10 Days</li>
+							<li><span class="material-symbols-outlined">person</span> 6+</li>
+							<li><span class="material-symbols-outlined">location_on</span>Washington, D.C.</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="sec_3_Inner">
+					<figure>
+						<img src="images/paris.jpg" alt="img" />
+					</figure>
+					<div class="sec_3_Data">
+						<h4>Seattle</h4>
+						<ul>
+							<li><span class="material-symbols-outlined">schedule</span> 8 Days</li>
+							<li><span class="material-symbols-outlined">person</span> 5+</li>
+							<li><span class="material-symbols-outlined">location_on</span>Seattle</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="sec_3_Inner">
+					<figure>
+						<img src="images/france.jpg" alt="img" />
+					</figure>
+					<div class="sec_3_Data">
+						<h4>Boston</h4>
+						<ul>
+							<li><span class="material-symbols-outlined">schedule</span> 4 Days</li>
+							<li><span class="material-symbols-outlined">person</span> 2+</li>
+							<li><span class="material-symbols-outlined">location_on</span>Boston</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="sec_3_Inner">
+					<figure>
+						<img src="images/greece.jpg" alt="img" />
+					</figure>
+					<div class="sec_3_Data">
+						<h4>Houston </h4>
+						<ul>
+							<li><span class="material-symbols-outlined">schedule</span> 4 Days</li>
+							<li><span class="material-symbols-outlined">person</span> 16+</li>
+							<li><span class="material-symbols-outlined">location_on</span>Houston </li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="sec_3_Inner">
+					<figure>
+						<img src="images/canada.jpg" alt="img" />
+					</figure>
+					<div class="sec_3_Data">
+						<h4>New York City</h4>
+						<ul>
+							<li><span class="material-symbols-outlined">schedule</span> 6 Days</li>
+							<li><span class="material-symbols-outlined">person</span> 3+</li>
+							<li><span class="material-symbols-outlined">location_on</span>New York City</li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END sec_3_Main -->
+
+<!-- START bookNextMain -->
+<section class="bookNextMain">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="bookNextLeft">
+					<div class="headingOther">
+						<h4>Easy Booking</h4>
+						<h2>Book your <span>Next Fight</span> in Three Easy Steps</h2>
+					</div>
+
+					<div class="bookLeftInner">
+						<figure>
+							<i class="material-symbols-outlined">location_on</i>
+						</figure>
+						<div class="bookLeftData">
+							<h4>Choose your Destination</h4>
+							<p>Select from a wide range of destinations that span the globe. From
+								iconic landmarks to hidden gems, our platform offers a comprehensive list of places to explore, all at unbeatable prices.</p>
+						</div>
+					</div>	
+					<div class="bookLeftInner">
+						<figure>
+							<i class="material-symbols-outlined">library_books</i>
+						</figure>
+						<div class="bookLeftData">
+							<h4>Fill in your Details</h4>
+							<p>Provide us with the necessary details to personalize your flight booking
+								experience. We understand the importance of every detail, ensuring a smooth and hassle-free process.</p>
+						</div>
+					</div>	
+					<div class="bookLeftInner">
+						<figure>
+							<i class="material-symbols-outlined">browse</i>
+						</figure>
+						<div class="bookLeftData">
+							<h4>Browse, Compare &amp; Book</h4>
+							<p>Our user-friendly interface allows you to browse and compare
+								various flight options, ensuring that you get the best deals tailored to your preferences.</p>
+						</div>
+					</div>	
+				</div>	
+			</div>
+			<div class="col-lg-6 col-md-12 col-sm-12">
+				<div class="bookNextRight">
+					<div class="bookRightInner">
+						<img class="img-fluid bookNext_1" src="images/shape_1.svg" alt="icon" />
+						<img class="img-fluid" src="images/bookingNext.jpg" alt="cft" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END bookNextMain -->
+
+
+<!-- START staticsMain -->
+<section class="staticsMain">
+	<div class="statics_1"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 col-md-12 col-sm-12">
+				<div class="staticsLeft">
+					<img class="img-fluid" src="images/statics.jpg" alt="img" />
+				</div>
+			</div>
+			<div class="col-lg-7 col-md-12 col-sm-12">
+				<div class="staticsRight">
+					<div class="headingOther">
+						<h4>Why Book through Cheap Flight Tickets?</h4>
+						<h2>Unbeatable Prices for Your <span>Dream Flights</span></h2>
+						<p>Plan your dream flights with us and explore the world like never before. Whether you are an avid
+							globetrotter or a first-time explorer, we have the expertise to find the best flight deals for you, so you
+							can fly more and pay less.</p>
+					</div>
+
+					<div class="staticsOuter">
+						<div class="staticsInner">
+							<figure>
+							<img src="images/Partner.svg" alt="partner">
+							</figure>
+							<div class="staticsData">
+								<h4><span class="counter" data-to="500" data-speed="7000">500</span>K+</h4>
+								<p>Partner Flights</p>
+							</div>
+						</div>
+						<div class="staticsInner">
+							<figure>
+								<img src="images/FLight booked.svg" alt="partner">
+							</figure>
+							<div class="staticsData">
+								<h4><span class="counter" data-to="200" data-speed="7000">200</span>K+</h4>
+								<p>Flights Booked</p>
+							</div>
+						</div>
+						<div class="staticsInner">
+							<figure>
+								<img src="images/destination.svg" alt="partner">
+							</figure>
+							<div class="staticsData">
+								<h4><span class="counter" data-to="300" data-speed="7000">300</span>K+</h4>
+								<p>Destinations Covered</p>
+							</div>
+						</div>
+						<div class="staticsInner">
+							<figure>
+								<img src="images/happy traveller.svg" alt="partner">
+							</figure>
+							<div class="staticsData">
+								<h4><span class="counter" data-to="150" data-speed="7000">150</span>K+</h4>
+								<p>Happy Travelers</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END staticsMain -->
+
+
+<!-- START galleryMain -->
+<section class="galleryMain">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+				<div class="headingOther">
+					<h4>Traveller's Lens</h4>
+					<h2>Experience the Journey Through Our <span>Traveller's Eyes</span></h2>
+					<p>Browse through our captivating gallery of views captured by our happy travellers. Witness the
+						breathtaking beauty of the world's most alluring destinations, inspiring you to embark on an unforgettable adventure of your own.</p>
+				</div>	
+			</div>
+			<div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="galleryInner">
+							<figure>
+								<img src="images/gallery_1.jpg" alt="img"/>
+							</figure>
+						</div>	
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<div class="galleryInner">
+							<figure>
+								<img src="images/gallery_2.jpg" alt="img"/>
+							</figure>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5 col-md-6 col-sm-6">
+				<div class="galleryInner">
+					<figure>
+						<img src="images/gallery_3.jpg" alt="img"/>
+					</figure>
+				</div>	
+			</div>
+			<div class="col-lg-7 col-md-6 col-sm-6">
+				<div class="galleryInner">
+					<figure>
+						<img src="images/gallery_4.jpg" alt="img"/>
+					</figure>
+				</div>	
+			</div>
+		</div>
+	</div>
+</section>
+<!-- END galleryMain -->
+
+	
+<!-- START blogMain -->
+<section class="blogMain">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-6 col-lg-8 col-md-12 col-sm-12">
+				<div class="headingOther">
+					<h4>Discover Our Travel Blogs</h4>
+					<h2>Blog</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6 blogRES">
+				<div class="blogInner">
+					<div class="blogDate">
+						<p><span>01</span>Apr</p>
+					</div>
+					<figure>
+						<img class="img-fluid" src="images/blog_1.jpg" alt="blog" />
+					</figure>
+					<div class="blogData">
+						<h4>World Wise</h4>
+						<p>Best Cities in Europe for Coffee Lovers  </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-6 blogRES">
+				<div class="blogInner">
+					<div class="blogDate">
+						<p><span>16</span>Sept</p>
+					</div>
+					<figure>
+						<img class="img-fluid" src="images/blog_2.jpg" alt="blog" />
+					</figure>
+					<div class="blogData">
+						<h4>Tips On Trips</h4>
+						<p>Youngsters' Paradise: Top 10 Places for the Young &amp; Curious</p>
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-4 col-md-6 col-sm-6 blogRES">
+				<div class="blogInner">
+					<div class="blogDate">
+						<p><span>21</span>Nov</p>
+					</div>
+					<figure>
+						<img class="img-fluid" src="images/blog_3.jpg" alt="blog" />
+					</figure>
+					<div class="blogData">
+						<h4>What's New </h4>
+						<p>Culinary Travel: A Delight for Foodie Travellers  </p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+<!-- END blogMain -->
+
+<!-- START POPUP AFTER SEARCH DESTINATION -->
+<div class="modal waitingModal" id="waitingModal" style="display: none;" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="waitingModal_cont">
+					<img src="images/relaxing-img.svg" alt="Relaxing Image">
+					<h5>Please wait… We are finding great deals for you</h5>
+					<ul>
+						<li>IXC - SIN <div class="modalLine"></div><span>Mon, Mar 06 2023</span></li>
+						<li>IXC - SIN <div class="modalLine"></div><span>Mon, Mar 06 2023</span></li>
+					</ul>
+					<p>Passenger: 2 Adult | Economy</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- END POPUP AFTER SEARCH DESTINATION -->
+
+
+<!-- START FOOTER -->
+<footer class="footer">
+	<div class="container">
+		<div class="newsletterArea">
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<div class="newsletterLeft">
+						<h2>Subscribe Our Newsletter</h2>
+						<h3>Get Every Update</h3>
+					</div>
+				</div>
+				<div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-12 col-sm-12">
+					<div class="newsletterInner">
+						<div class="form-group">
+							<div class="input-group">
+								<input class="form-control" placeholder="Your Email..." type="email">
+								<span class="input-group-text">
+									<button class="btn btnTheme" type="button">Subscribe</button>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>	
+		<div class="footerTop">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 footerRES">
+					<div class="footerInner">
+						<a class="logoFooter" href="index.html"><img src="images/logo.png" alt="logo"></a>
+						<p>Find, Compare &amp; Fly.</p>
+							<p>At Cheap Flight Tickets, we specialize in making your flight booking experience seamless and budget friendly.</p>
+						<div class="socialIcon">
+							<ul>
+								<li><a href="#" target="_blank"><img src="images/facebook-icon.svg"></a></li>
+								<li><a href="#" target="_blank"><img src="images/twitter-icon.svg"></a></li>
+								<li><a href="#" target="_blank"><img src="images/instagram-icon.svg"></a></li>
+								<li><a href="#" target="_blank"><img src="images/youtube-icon.svg"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 footerRES">
+					<div class="footerInner">
+						<h3>Quick Links</h3>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about_us.html">About Us</a></li>
+							<li><a href="contact_us.html">Contact Us</a></li>
+							<li><a href="#">Pricing</a></li>
+							<li><a href="faq.html">FAQs</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-12 footerRES">
+					<div class="footerInner">
+						<h3>Supports</h3>
+						<ul>
+							<li><a href="privacy_policy.html">Privacy Policy</a></li>
+							<li><a href="#">Supports</a></li>
+							<li><a href="#">Disclaimer</a></li>
+							<li><a href="faq.html">FAQs</a></li>
+							<li><a href="terms_and_conditions.html">Terms &amp; Conditions</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 footerRES">
+					<div class="footerInner">
+						<h3>Get In Touch</h3>
+						<div class="addressFooter">
+							<ul>
+								<li>
+									<span><img src="images/address-icon.svg" alt="icon"></span>
+									<p> Robert Joe Albillar,Manager<br>CHEAP FLIGHT TRIPS LLC <br>44047 North 43rd Avenue #74185 <br>Phoenix, Arizona 85087 </p>
+								</li>
+								<li>
+									<span><img src="images/phone-icon.svg" alt="icon"></span>
+									<p>+1 (623) 670-8030</p>
+								</li>
+								<li>
+									<span><img src="images/email-icon.svg" alt="icon"></span>
+									<p>contact@cheapflighttrips.com</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copy">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 copyRES">
+					<div class="copyInner">
+						<p>© Copyright 2023 Cheap Flight Trips. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- END FOOTER -->
+
+	
+<!-- js -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+	
+<!-- START range Slider -->
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script>
+	$(function() {
+	   $( "#slider-1" ).slider({
+		  range:true,
+		  min: 0,
+		  max: 500,
+		  values: [ 35, 200 ],
+		  slide: function( event, ui ) {
+			 $( "#price" ).val( "£" + ui.values[ 0 ] + " - £" + ui.values[ 1 ] );
+		  }
+	   });
+	   $( "#price" ).val( "£" + $( "#slider-1" ).slider( "values", 0 ) +
+		  " - £" + $( "#slider-1" ).slider( "values", 1 ) );
+	});
+</script>
+<script>
+	$(function() {
+	   $( "#slider-2" ).slider({
+		  range:true,
+		  min: 0,
+		  max: 24,
+		  values: [ 0, 17 ],
+		  slide: function( event, ui ) {
+			 $( "#price_2" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+		  }
+	   });
+	   $( "#price_2" ).val( "" + $( "#slider-2" ).slider( "values", 0 ) +
+		  " - " + $( "#slider-2" ).slider( "values", 1 ) );
+	});
+</script>
+<script>
+	$(function() {
+	   $( "#slider-3" ).slider({
+		  range:true,
+		  min: 0,
+		  max: 24,
+		  values: [ 0, 17 ],
+		  slide: function( event, ui ) {
+			 $( "#price_3" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+		  }
+	   });
+	   $( "#price_3" ).val( "" + $( "#slider-3" ).slider( "values", 0 ) +
+		  " - " + $( "#slider-3" ).slider( "values", 1 ) );
+	});
+</script>
+<script>
+	$(function() {
+	   $( "#slider-4" ).slider({
+		  range:true,
+		  min: 0,
+		  max: 100,
+		  values: [ 0, 40 ],
+		  slide: function( event, ui ) {
+			 $( "#price_4" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+		  }
+	   });
+	   $( "#price_4" ).val( "" + $( "#slider-4" ).slider( "values", 0 ) +
+		  " - " + $( "#slider-4" ).slider( "values", 1 ) );
+	});
+</script>
+<!-- END range Slider -->
+
+<!-- START stats -->
+<script>
+	$(document).ready(function() {
+
+		$('.counter').each(function () {
+			$(this).prop('Counter',0).animate({
+				Counter: $(this).text()
+			}, {
+				duration: 2000,
+				easing: 'swing',
+				step: function (now) {
+					$(this).text(Math.ceil(now));
+				}
+			});
+		}); 
+	});  
+</script>
+<!-- END stats -->
+
+<!-- START MOBILE MENU -->
+<script>
+'use strict';
+(function() {
+	var body = document.body;
+	var burgerMenu = document.getElementsByClassName('b-menu')[0];
+	var burgerContain = document.getElementsByClassName('b-container')[0];
+	var burgerNav = document.getElementsByClassName('b-nav')[0];
+	burgerMenu.addEventListener('click', function toggleClasses() {
+		[body, burgerContain, burgerNav].forEach(function (el) {
+			el.classList.toggle('open');
+		});
+	}, false);
+})();
+</script>
+<!-- END MOBILE MENU -->
+	
+<!-- START fixed_header 
+<script>
+$(window).scroll(function() {             // this will work when your window scrolled.
+	var height = $(window).scrollTop();   //getting the scrolling height of window
+	if(height  > 2) {
+		$("header").addClass('fixed_header');
+	} 
+	else {
+		$("header").removeClass('fixed_header');
+	}
+});
+</script>
+<!-- END fixed_header -->
+
+<!-- START passEco_dropdown-->
+<script>
+$(document).ready(function(){
+	$('.passEco_dropdown > a').click(function(evt){
+		evt.stopPropagation();
+		$(".passEco_dropBox").css({
+			"-webkit-transform" : "translateY(0)",
+			"transform" : "translateY(0)",
+			"visibility" : "visible",
+			"opacity" : "1"
+		});
+	});
+});
+$(document).click(function(e) {
+	var container = $(".passEco_dropdown");
+	var applybtn = $(".apply_filters > a");
+	if ((!container.is(e.target) && container.has(e.target).length === 0) || (applybtn.is(e.target))) {
+		$(".passEco_dropBox").css({
+			"-webkit-transform" : "translateY(-15px)",
+			"transform" : "translateY(-15px)",
+			"visibility" : "hidden",
+			"opacity" : "0"
+		});
+	}
+});
+</script> 
+<!-- END passEco_dropdown-->
+
+<!-- START banner -->
+<script>
+	$(".bannerTo1 input").click(function () {
+		$(".bannerTo1 i").addClass("la-times");
+		$(".bannerTo1 i").removeClass("la-map-marker");
+	});
+</script>	
+<script>
+	$(".bannerTo1 i").click(function () {
+		$(this).toggleClass("la-map-marker");
+	});
+</script>
+<script>
+	$(".bannerTo2 input").click(function () {
+		$(".bannerTo2 i").addClass("la-times");
+		$(".bannerTo2 i").removeClass("la-map-marker");
+	});
+</script>				   
+<script>
+	$(".bannerTo i").click(function () {
+		$(this).toggleClass("la-map-marker");
+	});
+</script>
+<!-- END banner -->
+
+<!-- START radioTab -->
+<script>
+	$('[name=tab]').each(function(i,d){
+		var p = $(this).prop('checked');
+	//   console.log(p);
+		if(p){
+		$('.bannerFormAll').eq(i)
+			.addClass('on');
+		}    
+	
+	});  
+	$('[name=tab]').on('change', function(){
+		var p = $(this).prop('checked');
+		// $(type).index(this) == nth-of-type
+		var i = $('[name=tab]').index(this);
+		$('.bannerFormAll').removeClass('on');
+		$('.bannerFormAll').eq(i).addClass('on');
+	});
+	
+</script>
+<!-- END radioTab -->
+
+<!-- START Modal Show on window load -->
+<script type="text/javascript">
+	$(window).on('load', function() {
+		$('#myModal').modal('show');
+	});
+</script>
+<!-- END Modal Show on window load -->
+
+
+
+<!-- START Date -->
+<script>
+	$(function(){
+	var dtToday = new Date();
+	var month = dtToday.getMonth() + 1;
+	var day = dtToday.getDate();
+	var year = dtToday.getFullYear();
+		if(month < 10)
+		month = '0' + month.toString();
+		if(day < 10)
+		day = '0' + day.toString();
+	var minDate= year + '-' + month + '-' + day;
+	// $('#datepicker').attr('min', minDate);
+	$('#datepicker').attr('min', minDate) + $('#datepicker2').attr('min', minDate) + $('#datepicker3').attr('min', minDate) + $('#datepicker4').attr('min', minDate) + $('#datepicker5').attr('min', minDate) + $('#datepicker6').attr('min', minDate);
+});
+</script>
+<!-- END Date -->
+
+
+<!-- START tooltips -->
+<script>
+	// Initialize tooltips
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+	return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
+</script>
+<!-- END tooltips -->
+
+
+</body>
+</html>
