@@ -7,11 +7,11 @@
     .bannerAreaInner h1 { font-size: 60px; line-height: 85px; }
     .bannerAreaInner > p { font-size: 26px; line-height: 34px; }
 
-    /* START AboutPageMain */
-    .AboutPageMain { padding: 40px 0 40px;}
+    /* START aboutPageMain */
+    .aboutPageMain { padding: 40px 0 40px;}
     .aboutPageLeftInner { width: 400px; }
     .aboutPageLeft { padding: 0; }
-    /* END AboutPageMain */
+    /* END aboutPageMain */
 
 
     /* START Banner Form */
@@ -95,12 +95,12 @@
     .headingOther h2 { font-size: 40px; line-height: 53px; }
 
 
-    /* START AboutPageMain */
-    .AboutPageMain {  padding: 100px 0 40px;  }
+    /* START aboutPageMain */
+    .aboutPageMain {  padding: 100px 0 40px;  }
     .aboutPageLeft {  margin: 0 0 200px;  }
     .aboutPageRight {top: 0;}
     .missionMain { padding: 30px 0 70px; }
-    /* START AboutPageMain */
+    /* START aboutPageMain */
 
     /* START Menu */
     .mobile-nav .accordion-item h2 { font-size: 16px; line-height: 22px; color: #000; margin-bottom: 0; display: flex; width: 100%; gap: 5px; font-weight: 400; }
@@ -380,10 +380,10 @@
     .bannerBtn .btn { width: 100%; margin: 0 0 15px; }
     .users .form-group.formBtn .btn { margin: 0 0 10px; }
 
-    /* START AboutPageMain */
+    /* START aboutPageMain */
     .aboutPageLeftInner {width: 100%;}
     .aboutPageLeft img.about_small {right: -15px;width: 150px; bottom: -50px;}
-    /* END AboutPageMain */
+    /* END aboutPageMain */
 
 }
 

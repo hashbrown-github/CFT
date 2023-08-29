@@ -977,39 +977,41 @@ font-family: 'SFProDisplay-Regular'; color: #000; align-items: center; position:
 .termsInner h4 { color: #000; font-size: 20px; line-height: 27px; margin: 0 0 10px; width: 100%; font-family: 'SFProDisplay-Semibold'; }
 .termsInner p { color: #000; font-size: 16px; line-height: 22px; margin: 0 0 25px; }
 .termsInner p:last-child { margin: 0; }
-.termsInner ul { margin: 10px 0 0; padding-left: 35px; display: inline-block; width: 100%; }
-.termsInner ul li { list-style: none; margin: 0 0 20px; position: relative; font-size: 16px; line-height: 22px; }
-.termsInner ul li:last-child { margin: 0; }
-.termsInner ul li::before { background: #ec5b24; color: #fff; content: "\e876"; font-family: 'Material Symbols Outlined'; font-weight: 400;
-position: absolute; left: -38px; top: 0; width: 24px; height: 24px; line-height: 24px; font-size: 20px; text-align: center; border-radius: 50%; }
+.termsInner ul { margin: 0 0 20px; padding-left: 30px; display: inline-block; width: 100%;}
+.termsInner ul li { list-style: none; margin: 0 0 10px; position: relative; font-size: 16px; line-height: 22px; }
+.termsInner ul li::before {content: "";left: -25px; position: absolute;top: 12px;background: #000;width: 16px;height: 1px;}
 /* END termsMain */
 
 
-/* START AboutPageMain */
-.AboutPageMain { overflow: hidden; position: relative; padding: 80px 0 100px; }
-.aboutPageRight { position: relative; margin: 0 0 30px; top: 50px; }
+/* START aboutPageMain */
+.aboutPageMain { overflow: hidden; position: relative; padding: 80px 0 100px; }
+.aboutPageMain .headingOther h2 { font-size: 36px;  line-height: 48px; }
+.aboutPageRight { position: relative; margin: 0; top: 50px; }
 .aboutPageRight .headingOther { margin: 0 0 20px; }
-.aboutPageRight p { color: #000; font-size: 16px; line-height: 22px; margin: 0 0 30px; }
-.aboutPageRight ul { margin: 0 0 20px; padding-left: 35px; display: inline-block; width: 100%;}
-.aboutPageRight ul li { list-style: none; margin: 0 0 20px; position: relative; font-size: 16px; line-height: 22px; }
-.aboutPageRight ul li::before { color: #fff; content: "\e876"; font-family: 'Material Symbols Outlined'; font-weight: 400; font-size: 20px; left: -38px; position: absolute; top: 0;
-background: #ec5b24; width: 24px; height: 24px; line-height: 24px; text-align: center; border-radius: 50%; }
+.aboutPageRight p { color: #000; font-size: 16px; line-height: 22px; margin: 0 0 25px; }
+.aboutPageRight h4 { color: #000; font-size: 20px; line-height: 27px; margin: 0 0 15px; }
+.aboutPageRight ul { margin: 0 0 20px; padding-left: 30px; display: inline-block; width: 100%;}
+.aboutPageRight ul li { list-style: none; margin: 0 0 10px; position: relative; font-size: 16px; line-height: 22px; }
+.aboutPageRight ul li::before {content: "";left: -25px; position: absolute;top: 12px;background: #000;width: 16px;height: 1px;}
 .aboutPageLeft { position: relative; margin: 0 0 30px; text-align: left; padding-left: 50px; }
 .aboutPageLeftInner { width: 460px; position: relative; display: inline-block; }
 .aboutPageLeftInner:before { background: transparent; border: 1px solid #ec5b24; content: ""; position: absolute; left: 30px; top: 30px; width: 100%; height: 100%; }
 .aboutPageLeftInner img { width: 100%; margin: 0; position: relative; height: 100%; }
 .aboutPageLeft img.about_small { position: absolute; right: 40px;  bottom: -150px;  z-index: 9;}
 .aboutPageLeftInner img.about_2 { position: absolute; left: -34px; top: -34px; width: auto; height: auto; width: 164px; }
-.aboutBtn .btn span {  font-size: 20px;  vertical-align: middle;  padding-right: 5px;  position: relative;  top: -1px;}
-/* END AboutPageMain */
+.aboutList { display: flex; } 
+.aboutListInner { width: 50%;}
+/* END aboutPageMain */
 
 
 /* START missionMain */
-.missionMain { background: #fff; overflow: hidden; position: relative; padding: 80px 0 70px; }
-.missionMain .headingOther { margin: 0 0 40px; }
-.missionMain .headingOther h2 { margin: 0 0 20px; }
+.missionMain { background: #fff; overflow: hidden; position: relative; padding: 60px 0 70px; }
+.missionMain .headingOther { margin: 0 0 10px; }
+.missionMain .headingOther h2 { margin: 0 0 20px; font-size: 36px;  line-height: 48px; }
+.missionMain .headingOther p { margin: 0 0 30px; line-height: 22px; }
 .missionInner { padding-right: 20px; }
-.missionInner h4 { color: #000; font-size: 20px; line-height: 26px; margin: 0 0 15px; }
+.missionInner h4 { color: #000; font-size: 20px; line-height: 27px; margin: 0 0 15px; }
 .missionInner p { margin: 0 0 30px; font-size: 16px; line-height: 22px; }
 .missionInner_2 { padding-left: 20px;  padding-right: 0; }
 /* END missionMain */
+
