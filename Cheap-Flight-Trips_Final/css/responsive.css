@@ -66,6 +66,10 @@
     .navbar-nav li { padding: 0 25px; }
     header { padding: 0 4%; }
 
+    /* START aboutMain */
+    .aboutRightInner { width: 360px;}
+    /* END aboutMain */
+    
     /* START aboutPageMain */
     .aboutPageLeftInner { width: 330px;  }
     .aboutPageLeft img.about_small { right: 10px; }
@@ -96,19 +100,38 @@
 
     .accordionBodyInner { width: 100%; }
     .accordionList ul li:nth-child(2) { width: calc(40% - 15px); }
-
 }
 
 @media (max-width: 991px) {
     .headingOther h2 { font-size: 40px; line-height: 53px; }
 
+    /* START aboutMain */
+    .aboutMain { padding: 30px 0 20px; }
+    .aboutLeft { margin: 0; }
+    .aboutRightInner { width: 330px;}
+    .aboutRightInner img.about_2 { left: -15px; top: -15px; }
+    .aboutRightInner:before { left: 15px;top: 15px; }
+    /* END aboutMain */
+
+
+
+    /* START bookNextMain */
+    .bookRightInner img.bookNext_1 { right: -15px; top: -15px; }
+    .bookRightInner:before { right: 15px;top: 15px; }
+    .bookLeftInner { padding-left: 40px; }
+    .bookLeftInner h4:before { width:30px; left: -38px; }
+    .bookLeftInner h4:after { width: 8px; height: 8px; left: -16px; }
+    /* END bookNextMain */
+
     /* START aboutPageMain */
     .aboutPageMain { padding: 100px 0 30px; }
-    .aboutPageLeft {  margin: 0 0 120px; text-align: center; }
+    .aboutPageLeft { margin: 0 0 120px; }
     .aboutPageLeft img.about_small {bottom: -50px;}
     .aboutPageRight {top: 0;}
     .missionMain { padding: 20px 0 70px; }
-    .aboutPageLeftInner {width: 400px;}
+    .aboutPageLeftInner {width: 270px;}
+    .aboutPageLeft img.about_small {right: 0;width: 180px;bottom: -50px;}
+    .aboutPageLeftInner img.about_2 { left: -10px;  top: -10px;}
     /* START aboutPageMain */
 
     /* START Menu */
@@ -166,21 +189,25 @@
     /* END bannerForm */
     
 
-    /* START Home Page */
-    .aboutMain { padding: 0 0 70px; }
-    .aboutRight { margin: 100px 0 30px; }
-    .bookNextRight { margin: 100px 0 30px; text-align: center; }
-    .bookRightInner { width: auto; }
-    .sec_2_Main { padding: 30px 0 40px; }
-    .sec_3_Inner figure img { width: 100%; height: 250px; object-fit: cover; }
+    /* START staticsMain */
+    .staticsMain { padding: 70px 0 70px; }
+    .staticsLeft { display: none;}
     .statics_1 { background-size: cover; width: 100%; }
     .staticsLeft img { width: auto; margin: auto; display: block; }
-    .staticsRight { margin: 30px 0 30px; }
+    .staticsRight {margin: 0; }
+    /* END staticsMain */
+
+    /* START Home Page */
+    .sec_2_Main { padding: 30px 0 40px; }
+    .sec_3_Main { padding: 30px 0 40px;}
+    .sec_3_Inner figure img { width: 100%; height: 250px; object-fit: cover; }
+
+
     .galleryInner { min-height: auto; }
     .galleryInner figure img { width: 100%; height: 200px; object-fit: cover; }
     .blogMain { padding: 50px 0 20px; background-size: cover; }
-    .blogInner figure img { height: 380px; }
-    .blogData p { font-size: 14px; }
+    .blogInner figure img { height: 280px; }
+    .blogData p { font-size: 14px; height: 42px; }
     .blogData p { font-size: 16px; line-height: 21px; }
     /* END Home Page */
 
@@ -213,9 +240,43 @@
     .bannerPage { height: auto; padding: 30px 0 35px; }
 
 
+    /* START aboutMain */
+    .aboutMain { padding: 20px 0 10px; }
+    .aboutMain .headingOther { position: absolute; top: 20px; }
+    .aboutMain .col-lg-6:first-child { order: 2; }
+    .aboutMain .col-lg-6:nth-child(2) { order: 1; }
+    .aboutRight { margin: 230px 0 70px; }
+    .aboutRightInner { width: 460px; }
+    /* END aboutMain */
+
+
+    /* START bookNextMain */
+    .bookNextMain { padding: 0 0 40px; }
+    .bookNextMain .headingOther { position: absolute; top: 20px; }
+    .bookNextMain .col-lg-6:first-child { order: 2; }
+    .bookNextMain .col-lg-6:nth-child(2) { order: 1; }
+    .bookNextRight { margin: 160px 0 70px;  text-align: center; }
+    .bookRightInner { width: 422px; }
+    /* END bookNextMain */
+
+
+    /* START aboutPageMain */
+    .aboutListInner {width: 100%;}
+    .aboutPageMain { padding: 150px 0 10px;}
+    .aboutPageMain .headingOther { position: absolute; top: 70px; }
+    .aboutPageRight { position: unset; }
+    .aboutPageLeft {margin: 50px 0 120px;text-align: center;}
+    .aboutPageLeftInner {width: 430px; }
+    .aboutPageLeftInner:before {  left: 10px; top: 10px;}
+    .aboutPageLeft img.about_small {right: 40px;width: 180px;bottom: -50px;}
+    .missionMain { padding: 30px 0 40px; }
+    .missionInner { padding-right: 0; }
+    .missionInner_2 { padding-left: 0; }
+    /* END aboutPageMain */
+
+
+
     /* START Home Page */ 
-    .aboutMain { padding: 0 0 40px; }
-    .aboutLeft { margin: 0; }
     .sec_2_Main { padding: 30px 0 20px; }
     .sec_3_Main { padding: 30px 0 20px; }
     .galleryMain { padding: 60px 0 30px; }
@@ -224,12 +285,8 @@
     .headingOther h4 { font-size: 18px; margin: 0 0 10px; }
     .headingOther h2 { font-size: 32px; line-height: 44px; }
     .headingOther p { font-size: 15px; line-height: 20px; }
-    .aboutLeft .headingOther { margin: 0; }
-    .aboutRightInner { width: auto; }
     .blogInner figure img { height: auto; }
-    .bookNextRight { margin: 60px 0 30px; }
-    .bookNextMain { padding: 30px 0 20px; }
-    .staticsMain { padding: 50px 0 70px; }
+    .blogInner {width: 360px;margin: 0 auto 80px;display: block; }
     /* END Home Page */
 
     /* START Footer */
@@ -299,15 +356,7 @@
     .contactAddress ul li p { font-size: 14px; line-height: 19px; }
     .contactAddress ul li h4 { font-size: 18px; line-height: 25px; }
 
-    /* START aboutPageMain */
-    .aboutListInner {width: 100%;}
-    .aboutPageMain { padding: 100px 0 10px;}
-    .missionMain { padding: 30px 0 40px; }
-    .aboutPageLeftInner:before {  left: 10px; top: 10px;}
-    .aboutPageLeft img.about_small { width: 250px; }
-    .missionInner { padding-right: 0; }
-    .missionInner_2 { padding-left: 0; }
-    /* END aboutPageMain */
+
 }
 
     
@@ -326,12 +375,26 @@
     .bannerInner_3, .dateInner_3 { width:100%; }
     /* END Banner Form */
 
+    /* START aboutMain */ 
+    .aboutRight { margin: 150px 0 70px; }
+    .aboutRightInner { width: auto; }
+    .aboutRight img.about_1 {  top: -60px; }
+    /* END aboutMain */ 
+
+
+
+    /* START bookNextMain */
+    .bookNextRight {margin: 130px 0 70px;}
+    /* END bookNextMain */
+
     /* START aboutPageMain */
     .missionMain .headingOther h2, .aboutPageMain .headingOther h2 { font-size: 28px; line-height: 36px; }
     .aboutPageLeft { margin: 0 0 100px; }
     .aboutPageLeftInner {width: 400px;max-width: 100%;}
-    .aboutPageLeft img.about_small {right: -15px;width: 180px; bottom: -50px;}
-    .missionMain {padding: 10px 0 40px;}
+    .missionMain { padding: 10px 0 40px; }
+    .aboutPageMain {
+        padding: 190px 0 10px;
+    }
     /* END aboutPageMain */
 
     .sec_2_Inner { margin: 0 0 20px; }
@@ -348,6 +411,7 @@
     .logoFooter { margin: 0 0 10px; }
     .logInArea { padding: 100px 30px; }
     .secondPartForm .form-group { width: 100%; }
+    
 }
 
 
@@ -405,6 +469,7 @@
     .bannerBtn.bannerBtn_3 .btn { width: 100%; margin: 0 0 15px; }
     .bannerBtn .btn { width: 100%; margin: 0 0 15px; }
     .users .form-group.formBtn .btn { margin: 0 0 10px; }
+    .aboutPageLeft img.about_small {right: 0; }
 }
 
 
