@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="csrf-token" content="wvpCAxAP4XAMZjJ94zyhGhQdCdgxZY0MxDMHUzr7">
-	<title>:: No Result ::</title>
-	<meta name="title" content="No Result">
+	<title>:: Disclaimer ::</title>
+	<meta name="title" content="Disclaimer">
 	<meta name="description" content="">
     <link async="" rel="canonical" href="http://cheapflighttrips.com/">
 
@@ -60,31 +60,47 @@
 <!-- END banner -->
 
 
-<!-- START noResultsMain -->
-<section class="noResultsMain">
-    <div class="noResultsOuter">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="noResultsInner">
-                        <img class="img-fluid" src="images/artwork.svg">
-						<h2>Uh-Oh!<br> No Results Found</h2>
-                        <p>Looks like we seem to be missing the results for your query IXC to MEL</p>
-                    </div>
-					<div class="noResultsBottom">
-						<h5>For any urgent requests</h5>
-						<ul>
-							<li><a href="#">0203 588 8444</a></li>
-							<li><a href="#">info@travelunravel.com</a></li>
-							<li><a href="#">Request a callback</a></li>
-						</ul>
+<!-- START termsMain -->
+<section class="termsMain">
+    <div class="container">
+        <div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<div class="terms">
+					<h2>Disclaimer</h2>
+					<div class="termsInner">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+						unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with 
+						the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+						<h4>Website Disclaimer</h4>
+						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+						Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, 
+						and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+
+						<h4>Where can I get some?</h4>
+						<p>Any discount provisions or offers that run on Travel Unravel changes according to the market determinants and policies. This includes the date of booking, the time of travel, 
+						the blackout dates or any pre-defined notices. When you claim discounts or savings on the tickets or services purchased with us, the fares may change without any prior 
+						information. Whenever you claim discounts and savings with us, we do a proper due dilligence and assessment before confirming the offered fare.</p>
+
+						<h4>Where can I get some?</h4>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look 
+						even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+
+						<h4>What's meant by 'the same itinerary'?</h4>
+						<p>When we say 'the same itinerary', it means that all the elements of the itinerary should match with our offered itinerary. This includes flight number, airline carrier, date 
+						of departure and return, the type of seat and the number of travellers.</p>
+
+						<h4>Where does it come from?</h4>
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
+						more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web 
+						page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
 					</div>
-                </div>
-            </div>
-        </div>
-    </div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
-<!-- END noResultsMain -->
+<!-- END termsMain -->
 
 
 <!-- START FOOTER -->
@@ -188,8 +204,7 @@
 	</div>
 </footer>
 <!-- END FOOTER -->
-
-
+	
 <!-- js -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
@@ -276,62 +291,63 @@
 	});  
 </script>
 <!-- END stats -->
+
 <!-- START MOBILE MENU -->
 <script>
-	'use strict';
-	(function() {
-		var body = document.body;
-		var burgerMenu = document.getElementsByClassName('b-menu')[0];
-		var burgerContain = document.getElementsByClassName('b-container')[0];
-		var burgerNav = document.getElementsByClassName('b-nav')[0];
-		burgerMenu.addEventListener('click', function toggleClasses() {
-			[body, burgerContain, burgerNav].forEach(function (el) {
-				el.classList.toggle('open');
-			});
-		}, false);
-	})();
-	</script>
-	<!-- END MOBILE MENU -->
-		
-	<!-- START fixed_header 
-	<script>
-	$(window).scroll(function() {             // this will work when your window scrolled.
-		var height = $(window).scrollTop();   //getting the scrolling height of window
-		if(height  > 2) {
-			$("header").addClass('fixed_header');
-		} 
-		else {
-			$("header").removeClass('fixed_header');
-		}
-	});
-	</script>
-	<!-- END fixed_header -->
+'use strict';
+(function() {
+	var body = document.body;
+	var burgerMenu = document.getElementsByClassName('b-menu')[0];
+	var burgerContain = document.getElementsByClassName('b-container')[0];
+	var burgerNav = document.getElementsByClassName('b-nav')[0];
+	burgerMenu.addEventListener('click', function toggleClasses() {
+		[body, burgerContain, burgerNav].forEach(function (el) {
+			el.classList.toggle('open');
+		});
+	}, false);
+})();
+</script>
+<!-- END MOBILE MENU -->
 	
-	<!-- START passEco_dropdown-->
-	<script>
-	$(document).ready(function(){
-		$('.passEco_dropdown > a').click(function(evt){
-			evt.stopPropagation();
-			$(".passEco_dropBox").css({
-				"-webkit-transform" : "translateY(0)",
-				"transform" : "translateY(0)",
-				"visibility" : "visible",
-				"opacity" : "1"
-			});
+<!-- START fixed_header
+<script>
+$(window).scroll(function() {             // this will work when your window scrolled.
+	var height = $(window).scrollTop();   //getting the scrolling height of window
+	if(height  > 2) {
+		$("header").addClass('fixed_header');
+	} 
+	else {
+		$("header").removeClass('fixed_header');
+	}
+});
+</script>
+<!-- END fixed_header -->
+
+<!-- START passEco_dropdown-->
+<script>
+$(document).ready(function(){
+	$('.passEco_dropdown > a').click(function(evt){
+		evt.stopPropagation();
+		$(".passEco_dropBox").css({
+			"-webkit-transform" : "translateY(0)",
+			"transform" : "translateY(0)",
+			"visibility" : "visible",
+			"opacity" : "1"
 		});
 	});
-	$(document).click(function(e) {
-		var container = $(".passEco_dropdown");
-		var applybtn = $(".apply_filters > a");
-		if ((!container.is(e.target) && container.has(e.target).length === 0) || (applybtn.is(e.target))) {
-			$(".passEco_dropBox").css({
-				"-webkit-transform" : "translateY(-15px)",
-				"transform" : "translateY(-15px)",
-				"visibility" : "hidden",
-				"opacity" : "0"
-			});
-		}
-	});
+});
+$(document).click(function(e) {
+	var container = $(".passEco_dropdown");
+	var applybtn = $(".apply_filters > a");
+	if ((!container.is(e.target) && container.has(e.target).length === 0) || (applybtn.is(e.target))) {
+		$(".passEco_dropBox").css({
+			"-webkit-transform" : "translateY(-15px)",
+			"transform" : "translateY(-15px)",
+			"visibility" : "hidden",
+			"opacity" : "0"
+		});
+	}
+});
 </script> 
 <!-- END passEco_dropdown-->
 
@@ -382,14 +398,13 @@
 </script>
 <!-- END radioTab -->
 
-
 <!-- START Modal Show on window load -->
 <script type="text/javascript">
 	$(window).on('load', function() {
 		$('#myModal').modal('show');
 	});
-  </script>
-  <!-- END Modal Show on window load -->
+</script>
+<!-- END Modal Show on window load -->
 
 
 
@@ -430,6 +445,7 @@
 	$('section.banner').hide();
 </script>
 <!-- END Header -->
+
 
 </body>
 </html>
