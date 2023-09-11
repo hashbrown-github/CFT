@@ -81,6 +81,7 @@
     /* END aboutMain */
     
     /* START aboutPageMain */
+    .aboutPageMain {padding: 20px 0 40px;}
     .aboutPageLeftInner { width: 330px;  }
     .aboutPageLeft img.about_small { right: 10px; }
     .aboutPageLeftInner img.about_2 { left: -20px;  top: -20px; }
@@ -102,6 +103,7 @@
     .sec_3_Main { padding: 20px 0 50px; }
 
     .staticsMain { padding: 80px 0 70px; }
+    .staticsLeft { margin: 0; }
     .staticsRight { margin: 0; }
     .staticsInner { padding: 25px 20px; }
 
@@ -109,10 +111,22 @@
     .galleryMain .headingOther { margin: 0 0 30px; }
     .galleryInner { min-height: 270px; }
 
+
     .blogMain { padding: 80px 0 50px; }
     .blogInner figure img { height: 330px; }
     .newsletterLeft h2 { font-size: 38px; line-height: 50px; }
     .newsletterLeft h3 { font-size: 28px; line-height: 38px; }
+
+    .faq_section { padding: 70px 0; }
+    .errorsMain { padding: 70px 0; }
+    .errorsInner img { width: 500px; }
+    .noResultsMain { padding: 70px 0; }
+
+    .termsMain { padding: 70px 0; }
+    .contactMain { padding: 70px 0 20px; }
+    .contactAddressMain { padding: 0 0 70px; }
+
+
     .flightResultMain .container { max-width: 95%; }
     .flightRightData { overflow: auto; overflow-x: scroll; white-space: nowrap; margin: 0 0 30px; }
     .flightRightDataInner { width: 800px; }
@@ -126,7 +140,7 @@
 }
 
 @media (max-width: 991px) {
-    .headingOther h3 { font-size: 40px; line-height: 53px; }
+    .headingOther h3 { font-size: 38px; line-height: 50.6px; }
 
     /* START aboutMain */
     .aboutMain { padding: 10px 0 20px; }
@@ -193,7 +207,6 @@
     .navbar-collapse { margin: 0; flex-basis: unset; flex-grow: unset; }
     header .dropdown-toggle::after { right: 0; }
     header .dropdown-menu { padding: 0; }
-    .navbar-brand>img { width: 170px; }
     /* END Menu */
 
     /* START banner */
@@ -253,8 +266,8 @@
     .welcomeTabs .nav-tabs li { margin: 0; }
     .welcomeTabs .nav-tabs li a { padding: 12px 25px; }
     /* END WelcomeTab */
-    .contactMain { padding: 70px 0 20px; }
-    .contactAddressMain { padding: 0 0 70px; }
+
+
     .priceRadioData ul li.priceListing { font-size: 15px; line-height: 20px; }
     .accordionBodyContent { overflow: auto; overflow-y: scroll; white-space: nowrap; height: auto; max-height: 650px; }
     .accContentInner { display: block; width: 600px; }
@@ -267,7 +280,6 @@
 @media (max-width: 767px) {
     .blogBanner { height: 400px; }
 
-    .navbar-brand>img { width: 165px; }
     .bannerForm { padding: 15px 0; }
     .bannerPage { height: auto; padding: 30px 0 35px; }
 
@@ -314,8 +326,9 @@
     .galleryMain { padding: 60px 0 60px; }
     .staticsRight { margin-bottom: 0; }
     .headingOther { margin: 0 0 20px; }
-    .headingOther h2 { font-size: 18px; margin: 0 0 10px; }
-    .headingOther h3 { font-size: 32px; line-height: 44px; }
+    .headingOther h2 { font-size: 18px; margin: 0 0 10px; padding-left: 55px; }
+    .headingOther h2:before { width: 45px  }
+    .headingOther h3 { font-size: 36px; line-height: 46px; }
     .headingOther p { font-size: 15px; line-height: 20px; }
     .blogInner figure img { height: auto; }
     .blogInner { width: 360px; max-width: 100%; margin: 0 auto 80px; display: block; }
@@ -326,7 +339,7 @@
     .newsletterLeft h3 { font-size: 24px; line-height: 32px; }
     .newsletterInner .input-group-text { padding: 0 5px 0 0; }
     .newsletterInner .form-control { height: 48px; padding: 0 15px; }
-    .newsletterInner .btn { font-size: 15px; height: 38px; padding: 5px 20px; }
+    .newsletterInner .btn { font-size: 15px; padding: 10px 20px; }
     .logoFooter img { width: 165px; }
     .footerTop h3 { font-size: 20px; }
     .footerInner > p { font-size: 14px; padding-right: 0; }
@@ -372,9 +385,8 @@
     .modalCustom .modal-body { padding: 60px 15px 40px; }
     .modalTime img { margin: 0 0 30px; width: 200px; }
     .modalTimeBtn .btn { font-size: 14px; line-height: 19px; padding: 8px 20px; margin: 0 5px 20px; }
-    .noResultsMain { padding: 70px 0; }
+
     .noResultsInner h2 { font-size: 36px; line-height: 48px; }
-    .errorsMain { padding: 70px 0; }
     .errorsInner h2 { font-size: 36px; line-height: 48px; }
     .contactMain { padding: 50px 0 20px; }
     .contactAddressMain { padding: 0 0 50px; }
@@ -393,11 +405,11 @@
 
     
 @media (max-width: 575px) {
-    .headingOther h3 { font-size: 25px; line-height: 34px; margin-bottom: 10px; }
+    .headingOther h3 { font-size: 30px; line-height: 40px; margin-bottom: 10px; }
 
     /* .headerLeft a span { display: none; } */
     .bannerArea { padding: 65px 0 80px; }
-    .bannerAreaInner h1 { font-size: 34px; line-height: 46px; }
+    .bannerAreaInner h1 { font-size: 36px; line-height: 48px; }
     .bannerAreaInner > p { font-size: 18px; line-height: 24px; }
     
     /* START Banner Form */
@@ -415,11 +427,13 @@
 
 
     /* START aboutPageMain */
-    .missionMain .headingOther h3, .aboutPageMain .headingOther h3 { font-size: 28px; line-height: 36px; }
+    .missionMain .headingOther h3, .aboutPageMain .headingOther h3 { font-size: 30px; line-height: 40px; }
     .aboutPageLeftInner { width: 400px; max-width: 100%; }
     .missionMain { padding: 10px 0 40px; }
     /* END aboutPageMain */
-
+    .bookNextRight {
+        margin: 130px 0 70px;
+    }
     .sec_2_Inner { margin: 0 0 20px; }
     .staticsInner { width: 100%; border-right: none; }
     .staticsInner:nth-child(n+3) { border-bottom: 1px solid rgb(0 0 0 / 8%); }
@@ -430,9 +444,14 @@
     .newsletterLeft h2 { font-size: 25px; line-height: 34px; }
     .newsletterLeft h3 { font-size: 20px; line-height: 28px; }
     .logoFooter { margin: 0 0 20px; }
+    .newsletterInner .input-group { display: block;background: transparent;     }
+    .newsletterInner .form-control { background: #fff; width: 100%; border-radius: 3px !important; height: 42px; margin: 0 0 15px; }
+
+    .noResultsInner h2 { font-size: 30px; line-height: 40px; }
+
     .logInArea { padding: 100px 30px; }
     .secondPartForm .form-group { width: 100%; }
-    .terms h2 { font-size: 28px; line-height: 36px; }
+    .terms h2 { font-size: 30px; line-height: 40px; }
     .termsInner h3 { font-size: 22px; line-height: 29.3px; }
     .termsInner h4 { font-size: 18px; line-height: 24px; }
     .termsInner p { font-size: 14px; line-height: 18.6px; }
@@ -444,7 +463,6 @@
     .fixed_header .navbar-nav li.nav-itemBtn { padding-right: 35px; }
     .navbar-nav li.nav-itemBtn { padding-right: 35px; }
     header .navbar { min-height: unset; }
-    .navbar-brand>img { width: 115px; }
     .navbar-nav li .btn.nav-link { font-size: 14px; line-height: 19px; }
     .headerLeft img { width: 42px; }
     .headerRight ul li { font-size: 15px; line-height: 20px; }
@@ -471,6 +489,9 @@
     .sec_2_Data ul li { font-size: 14px; line-height: 19px; padding-right: 10px; }
     .sec_2_Data ul li::before { right: 2px; }
     .sec_3_Inner { margin: 0 0 20px; }
+    .bookNextRight {
+        margin: 160px 0 70px;
+    }
     .bookLeftInner { margin: 0 0 20px; }
     .bookLeftInner figure { margin: 0 auto 15px; float: none; }
     .bookLeftData { padding-left: 0; text-align: center; }

@@ -47,10 +47,10 @@ a:hover, a:focus { text-decoration: none; }
 
 
 /* START BUTTON */
-.btnTheme { background: #ec5b24; box-shadow: none; border: 1px solid #ec5b24; border-radius: 3px; color: #fff; font-size: 16px; line-height: 21.3px; padding: 10px 25px;
+.btnTheme { background: #ec5b24; box-shadow: none; border: 1px solid #ec5b24; border-radius: 3px; color: #fff; font-size: 15px; line-height: 20px; padding: 10px 25px;
 text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
 .btnTheme:hover, .btnTheme:focus { background: #ec5b24; box-shadow: none; border: 1px solid #ec5b24; color: #fff; }
-.btnTransparent { background: #fff; box-shadow: none; border: 1px solid #000; border-radius: 3px; color: #000; font-size: 16px; line-height: 21.3px; padding: 10px 25px;
+.btnTransparent { background: #fff; box-shadow: none; border: 1px solid #000; border-radius: 3px; color: #000; font-size: 15px; line-height: 20px; padding: 10px 25px;
 text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
 .btnTransparent:hover, .btnTransparent:focus { background: #fff; box-shadow: none; border: 1px solid #000; color: #000; }
 /* END BUTTON */
@@ -189,7 +189,7 @@ background-position: 90% center; background-repeat: no-repeat; background-size: 
 .bannerForm .form-control::-moz-placeholder { color: #000; opacity: 1; }
 .bannerForm .form-control::-ms-input-placeholder { color: #000; opacity: 1; }
 .bannerBtn { width: 100px; }
-.bannerBtn .btn { padding: 9px 20px; font-size: 16px; height: 40px; line-height: 22px; border-radius: 3px; text-align: center; position: relative; width: 100%; }
+.bannerBtn .btn { padding: 8px 20px; font-size: 16px; line-height: 22px; border-radius: 3px; text-align: center; position: relative; width: 100%; }
 .dateInner .input-group { margin: 0; border-radius: 3px; background: #fff; border: 1px solid #ededed; position: relative; }
 .dateInner .form-control { padding: 8px 12px 9px; }
 .dateInner .input-group-text { padding: 0; background-color: transparent; border: none; }
@@ -392,7 +392,7 @@ overflow: hidden; position: relative; padding: 100px 0 60px; width: 100%; }
 .blogInner figure img { margin: auto; width: 100%; object-fit: cover; display: block; height: 480px; }
 .blogData { padding: 20px 20px 30px; background: #fff; position: absolute; bottom: -40px; left: 7%; width: 86%; }
 .blogData h4 { color: #000; font-size: 16px; line-height: 21.3px; margin: 0 0 10px; width: 100%; font-family: 'SFProDisplay-Bold'; }
-.blogData p { font-size: 20px; line-height: 26.6px; margin: 0; font-family: 'SFProDisplay-Bold'; height: 48px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.blogData p { font-size: 20px; line-height: 26.6px; margin: 0; font-family: 'SFProDisplay-Bold'; height: 52px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .blogDate { background: #ec5b24; width: 60px; height: 85px; position: absolute; left: 20px; top: 20px; text-align: center; }
 .blogDate p { color: #fff; margin: 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
 .blogDate p span { font-size: 36px; line-height: 48px; display: block; }
@@ -412,7 +412,7 @@ overflow: hidden; position: relative; padding: 100px 0 60px; width: 100%; }
 .newsletterInner .form-control::-moz-placeholder { color: #888; }
 .newsletterInner .form-control::-ms-input-placeholder { color: #888; }
 .newsletterInner .input-group-text { padding: 0 10px 0 0; background-color: transparent; border: none; }
-.newsletterInner .btn { font-size: 16px; height: 40px; border: none; padding: 5px 25px; }
+.newsletterInner .btn { font-size: 16px; border: none; padding: 12px 25px; }
 /* END newsletter */
 
 
@@ -478,7 +478,7 @@ display: flex; align-items: center; justify-content: left; overflow: hidden; pos
 .resend_otp { width: 100%; margin-top: 15px; text-align: right; }
 
 .btnTheme1 { background: linear-gradient(180deg, #F8F7F7 0%, #E8E8E8 100%); box-shadow: none; border: none; border-radius: 3px; color: #000; border: 1px solid #ddd; 
-font-size: 16px; line-height: 21.3px; padding: 10px 25px; text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
+font-size: 15px; line-height: 20px; padding: 10px 25px; text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
 .log_2 { display: flex; width: 100%; gap: 15px; }
 .users .log_2 select.form-control { width: 125px; flex-shrink: 0; }
 .users label.error { position: absolute; left: 0; bottom: -22px; color: #ff0000; font-size: 13px; }
@@ -610,7 +610,7 @@ color: #000; font-size: 16px; height: 46px; line-height: 21.3px; }
 .cardNum h5 { color: #3c3c3c; font-size: 16px; line-height: 21.3px; margin: 0; font-family: 'SFProDisplay-Regular'; display: inline-block; }
 .cardNum p { color: #3c3c3c; font-size: 16px; line-height: 21.3px; margin: 0; font-family: 'SFProDisplay-Regular'; }
 .cardDelete a { font-size: 16px; line-height: 21.3px; font-family: 'SFProDisplay-Regular'; color: #1573dd; text-decoration: underline; }
-.cardBtn a { font-size: 16px; line-height: 21.3px; font-family: 'SFProDisplay-Regular'; color: #1573dd; }
+.cardBtn a { font-size: 15px; line-height: 20px; font-family: 'SFProDisplay-Regular'; color: #1573dd; }
 .cardBtn a span { vertical-align: middle; font-size: 22px; }
 /* END paymentOuter */
 
@@ -618,7 +618,7 @@ color: #000; font-size: 16px; height: 46px; line-height: 21.3px; }
 /* START bannerPage */
 .bannerPage { width: 100%; position: relative; border-bottom: 1px solid #e2e2e2; display: table; height: 380px; }
 .bannerTableCell { display: table-cell; vertical-align: middle; }
-.bannerPage h3 { color: #000; font-size: 30px; line-height: 40px; margin: 0 0 30px; font-family: 'SFProDisplay-Bold'; }
+.bannerPage h2 { color: #000; font-size: 30px; line-height: 40px; margin: 0 0 30px; font-family: 'SFProDisplay-Bold'; }
 .bannerPageInner { padding: 0; position: relative; }
 .bannerPage .form-group { margin-bottom: 15px; position: relative; }
 /* END bannerPage */
@@ -627,27 +627,30 @@ color: #000; font-size: 16px; height: 46px; line-height: 21.3px; }
 /* START flightLeft */
 .flightResultMain { padding: 70px 0; }
 .filterLeft { margin: 0 0 30px; }
-.filterLeftHeading { padding: 0 0 10px; border-bottom: 1px solid #e2e2e2; padding-right: 15px; }
+.filterLeftHeading { padding: 0 0 10px; border-bottom: 1px solid #e2e2e2; }
 .filterLeftHeading h3 { font-size: 18px; line-height: 24px; margin: 0; font-family: 'SFProDisplay-Medium'; display: inline-block; }
-.filterLeftHeading span { font-size: 15px; line-height: 20px; margin: 0; font-family: 'SFProDisplay-Medium'; color: #ec5b24; float: right; }
-.filterLeftInner { padding: 20px 0; border-bottom: 1px solid #e2e2e2; padding-right: 15px; }
+.filterLeftHeading span { font-size: 14px; line-height: 18.6px; margin: 0; font-family: 'SFProDisplay-Medium'; color: #ec5b24; float: right; }
+.filterLeftInner { padding: 20px 0; border-bottom: 1px solid #e2e2e2; }
 .filterLeftInner:last-child { border-bottom: none; }
 .filterLeftInner h4 { font-size: 18px; line-height: 24px; margin: 0 0 10px; font-family: 'SFProDisplay-Medium'; }
 .filterLeftInner h4 span { font-size: 14px; line-height: 18.6px; font-family: 'SFProDisplay-Regular'; }
 .filterLeftInner .checkValue { margin: 5px 0 0; }
 .filterLeftInner span.clear { float: right; }
 .filterLeftInner span.clear a { float: right; color: #ec5b24; font-size: 14px; }
+.filterLeftInner .checkValue .checkCustom:last-child { margin: 0 0 5px; }
 /* END flightLeft */
 
 
 /* START slideNew */
+.slideNew { margin: 0 0 10px; }
 .slideNew .ui-slider-horizontal { height: 3px; }
 .slideNew .ui-widget-content { border: none; background: #CBC9C9; }
 .slideNew .ui-widget-header { background: #000; }
-.slideNew .ui-widget-content .ui-state-default { background: #fff; box-shadow: 0px 3px 6px rgb(0 0 0 / 16%); border: 1px solid #D8D5D5; outline: none; border-radius: 50%; width: 14px; height: 14px; }
+.slideNew .ui-widget-content .ui-state-default { background: #fff; box-shadow: 0px 3px 6px rgb(0 0 0 / 16%); border: 1px solid #D8D5D5; 
+outline: none; border-radius: 50%; width: 14px; height: 14px; top: -5px; }
 .slideNew input { border: none; padding: 0; outline: none; background: transparent; font-size: 14px; }
 .slideNew input:hover, .slideNew input:focus { border: none; outline: none; box-shadow: none; }
-.slideNew p { margin: 0 0 5px; }
+.slideNew p { margin: 0 0 10px; }
 /* END slideNew */
 
 
@@ -661,8 +664,8 @@ color: #000; font-size: 16px; height: 46px; line-height: 21.3px; }
 .priceRadio .radioCustom:last-child .checkmark { border-radius:0 2px 2px 0; border-left: 0; }
 .priceRadio .radioCustom input:checked~.checkmark { background-color: #fff; border-bottom: 3px solid #ec5b24; }
 .priceRadio .radioCustom input:checked~.checkmark:after { display: none; }
-.priceRadioData ul li { margin: 0; font-size: 14px; line-height: 18.6px; }
-.priceRadioData ul li.priceListing { font-size: 18px; line-height: 24px; font-family: 'SFProDisplay-Medium'; }
+.priceRadioData ul li { margin: 0 0 5px; font-size: 14px; line-height: 18.6px; }
+.priceRadioData ul li.priceListing { font-size: 18px; line-height: 24px; font-family: 'SFProDisplay-Medium'; margin: 0; }
 .priceRadioData ul li span { float: right; }
 /* END priceRadio */
 
@@ -677,32 +680,34 @@ color: #000; font-size: 16px; height: 46px; line-height: 21.3px; }
 .flightRightDataHead h4 b { font-size: 20px; line-height: 26.6px; font-family: 'SFProDisplay-Medium'; margin-right: 10px; }
 .flightRightDataHead h4 span { font-size: 14px; line-height: 18.6px; font-family: 'SFProDisplay-Regular'; margin-top: 5px; }
 .flightRightList { width: 75%; }
-.flightRightDataInner ul { display: flex; flex-wrap: wrap; gap: 30px; margin: 0 0 20px; }
+.flightRightDataInner { border: 1px solid #e2e2e2; padding: 20px 15px 20px; margin: 0 0 15px; border-radius: 2px; display: flex; align-items: center; }
+.flightRightDataInner ul { display: flex; flex-wrap: wrap; gap: 30px; margin: 0 0 30px; }
+.flightRightDataInner ul:last-child {  margin: 0; }
 .flightRightDataInner ul li { margin: 0; }
 .flightRightDataInner ul li:first-child { width: calc(110px - 16px); }
 .flightRightDataInner ul li:nth-child(2) { width: calc(25% - 16px); text-align: right; }
 .flightRightDataInner ul li:nth-child(3) { width: calc(25% - 16px); }
 .flightRightDataInner ul li:nth-child(4) { width: calc(25% - 16px); }
-.flightRightDataInner { border: 1px solid #e2e2e2; padding: 30px 15px 10px; margin: 0 0 15px; border-radius: 2px; display: flex; align-items: center; }
+
 .flightRightDataInner ul li .img_sec { text-align: center; margin: 0 0 5px; }
-.flightRightDataInner ul li .img_sec img { width: auto; }
-.flightRightDataInner ul li h6 { color: #000; font-size: 12px; line-height: 17px; font-family: 'SFProDisplay-Regular'; text-align: center; margin: 0; }
-.flightRightDataInner ul li h5 { font-size: 18px; line-height: 24px; color: #000; margin: 0; font-family: 'SFProDisplay-Medium'; }
-.flightRightDataInner ul li h4 { margin: 0; color: #000; font-size: 12px; line-height: 17px; font-family: 'SFProDisplay-Regular'; }
+.flightRightDataInner ul li .img_sec img { width: 38px; }
+.flightRightDataInner ul li:first-child h4 { color: #000; font-size: 12px; line-height: 17px; font-family: 'SFProDisplay-Regular'; text-align: center; margin: 0; }
+.flightRightDataInner ul li h5 {  margin: 0 0 5px; font-size: 18px; line-height: 24px; color: #000; font-family: 'SFProDisplay-Medium'; }
+.flightRightDataInner ul li h4 { margin: 0 0 5px; color: #000; font-size: 12px; line-height: 17px; font-family: 'SFProDisplay-Regular'; }
 .flightRightDataInner ul li p { margin: 0; color: #000; font-size: 12px; line-height: 17px; font-family: 'SFProDisplay-Regular'; }
 .flightRange { margin: 0; position: relative; text-align: center; }
 .flightdashLine { height: 1px; border-bottom: 1px solid #e2e2e2; margin: 0 auto 10px; width: 80%; }
 .flightRightDataInner ul li .flightRange p { text-align: center; position: relative; display: inline-block; margin: 0 0 10px; }
 .flightRightDataInner ul li .flightRange p:before { background: #fff; border-radius: 50%; content: ""; width: 9px; height: 9px; position: absolute; left: 50%;
 bottom: -15px; transform: translate(-50%, 0); border: 1px solid #ec5b24; }
-.lastList { width: 25%; margin: 0 0 20px; }
+.lastList { width: 25%; margin: 0 0 5px; }
 .lastList h6 { margin: 0 0 5px; font-family: 'SFProDisplay-Regular'; font-size: 14px; line-height: 18.6px; }
-.lastList h6 span { font-family: 'SFProDisplay-Bold'; }
-.lastList h3 { color: #000; font-size: 14px; line-height: 18.6px; font-family: 'SFProDisplay-Regular'; margin: 0 0 5px; }
-.lastList h3 span { font-size: 22px; line-height: 29.3px; font-family: 'SFProDisplay-Bold'; }
-.lastList p { margin: 0 0 10px; font-size: 14px; line-height: 18.6px; }
-.btnFlightList .btn { height: 32px; padding: 5px 16px; margin: 0 5px 0 0; font-size: 14px; line-height: 18.6px; }
-.flightRange span { text-align: center; color: #000; width: 100%; display: inline-block; }
+.lastList h6 span { font-family: 'SFProDisplay-Semibold'; }
+.lastList h4 { color: #000; font-size: 14px; line-height: 18.6px; font-family: 'SFProDisplay-Regular'; margin: 0 0 10px; }
+.lastList h4 span { font-size: 22px; line-height: 29.3px; font-family: 'SFProDisplay-Medium'; }
+.lastList p { margin: 0 0 15px; font-size: 14px; line-height: 18.6px; }
+.btnFlightList .btn { padding: 6px 16px 5px; margin: 0 5px 0 0; font-size: 14px; line-height: 18.6px; }
+.flightRange span { text-align: center; color: #000; width: 100%; display: inline-block; font-size: 12px; }
 .accordionBody { display: flex; gap: 10px; flex-wrap: wrap; margin: 0; justify-content: stretch; }
 .accordionBodyInner { width: calc(50% - 5px); background: #fff; border: 1px solid #e2e2e2; }
 .accordionBodyHead { background: #fff; padding: 15px; border-bottom: 1px solid #e2e2e2; margin: 0 0 10px; }
@@ -713,12 +718,13 @@ bottom: -15px; transform: translate(-50%, 0); border: 1px solid #ec5b24; }
 .accordionBodyContent::-webkit-scrollbar-thumb { background: rgb(0 0 0 / 22%); border-radius: 0; }
 .accordionBodyContent::-webkit-scrollbar-thumb:hover { background: #e2e2e2; }
 .accContentInner { display: inline-block; width: 100%; margin: 0; }
-.baggage { margin: 0 0 30px; display: inline-block; width: 100%; }
+.baggage { margin: 0 0 20px; display: inline-block; width: 100%; }
 .baggage p { font-size: 12px; line-height: 16px; margin: 0; }
-.baggage img.companyName { width: 32px; margin-right: 10px; }
+.baggage p strong { font-family: 'SFProDisplay-Regular'; color: #7B7B7B;}
+.baggage img.companyName { width: 30px; margin-right: 10px; }
 .baggage span { float: right; padding: 6px 12px; background: #fcfcfc; border: 1px solid #e2e2e2; vertical-align: middle;
-font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; position: relative; }
-.accordionList ul { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Medium'; position: relative; }
+.accordionList ul { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: center; }
 .accordionList ul li { margin: 0; }
 .accordionList ul li:nth-child(1) { width: calc(30% - 15px); }
 .accordionList ul li:nth-child(2) { width: calc(45% - 15px); }
@@ -726,18 +732,18 @@ font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; positio
 .accordionList { padding: 0; margin: 0 0 30px; }
 .accordionList ul li .img_sec { border: 1px solid #e2e2e2; padding: 3px; text-align: center; margin: 0 0 5px; }
 .accordionList ul li .img_sec img { width: 48px; object-fit: cover; }
-.accordionList ul li h6 { color: #000; font-size: 14px; line-height: 18.6px; font-family: 'SFProDisplay-Regular'; text-align: center; margin: 0; }
+.accordionList ul li h4 { margin: 0 0 5px; color: #000; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; }
 .accordionList ul li h5 { font-size: 16px; line-height: 21.3px; color: #000; margin: 0 0 5px; }
-.accordionList ul li span { margin: 0; color: #000; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; }
-.accordionList ul li p { margin: 0 0 5px; color: #000; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; }
+.accordionList ul li h6 { margin: 0; color: #000; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; }
+.accordionList ul li p { margin: 0 0 5px; color: #7B7B7B; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; }
 .dottedAccordionRange { margin: 0; position: relative; text-align: center; }
 .dottedRangeLine { height: 1px; border-bottom: 2px solid #ec5b24; margin: 0 auto 3px; width: 80px; }
 .accordionList ul li .flightRange p { text-align: center; position: relative; display: inline-block; margin: 0 0 10px; }
 .accordionList ul li .flightRange p:before { background: #000; border-radius: 50%; content: ""; width: 8px; height: 8px; position: absolute; left: 50%; bottom: -15px; transform: translate(-50%, 0); }
 .stopover { display: inline-block; width: 100%; position: relative; margin: 0 0 30px; }
 .stopover:before { background: #e2e2e2; content: ""; width: 90%; height: 1px; position: absolute; left: 5%; top: 50%; }
-.stopover p { font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; padding: 6px 12px; background: #f7f7f7; width: 70%; margin: auto; position: relative; }
-.stopover strong { color: #ec5b24; font-size: 12px; line-height: 16px; }
+.stopover p { font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; padding: 6px 12px; background: #f7f7f7; width: 70%; margin: auto; position: relative; text-align: center; }
+.stopover strong { color: #ec5b24; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Medium'; }
 /* END flightRight */
 
 
@@ -761,8 +767,9 @@ font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; positio
 .flightSummary { padding-left: 0; }
 .headingSummaryTop { margin: 0 0 20px; display: inline-block; width: 100%; }
 .headingSummaryTop h3 { font-family: 'SFProDisplay-Medium'; font-size: 18px; line-height: 24px; margin: 0; }
-.flightSummaryDataMain { margin: 0 0 30px; display: inline-block; width: 100%; }
-.flightSummaryData { border: 1px solid #e2e2e2; border-radius: 2px 2px 0 0; padding: 15px; margin: 0; display: inline-block; width: 100%; }
+.flightSummaryDataMain { margin: 0 0 30px; display: inline-block; width: 100%; border: 1px solid #e2e2e2; border-radius: 2px 2px 0 0; }
+.flightSummaryData { padding: 15px 15px 0; margin: 0; display: inline-block; width: 100%; }
+.flightSummaryData:last-child { border-top: 1px solid #e2e2e2; }
 .flightsummaryHead { margin: 0 0 25px; }
 .flightsummaryHead h4 { margin: 0 0 12px; font-size: 18px; line-height: 24px; font-family: 'SFProDisplay-Regular'; vertical-align: middle; }
 .flightsummaryHead h4 b { font-family: 'SFProDisplay-Medium'; }
@@ -940,8 +947,8 @@ font-family: 'SFProDisplay-Regular'; color: #000; align-items: center; position:
 .contactMain h2:before { background: #ec5b24; content: ""; position: absolute; left: 0; top: 50%; width: 60px; height: 2px; transform: translate(0, -50%); }
 .contactMain h3 { color: #000; font-size: 36px; line-height: 48px; margin: 0 0 30px; font-family: 'SFProDisplay-Semibold'; position: relative; }
 .contactMain h3 span { color: #ec5b24; }
-.contactArea { background: #fff; border: 1px solid #ddd; border-radius: 3px; margin: 0 0 30px; padding: 50px 40px 50px; position: relative; }
-.contactArea:before { content: ""; background: #fff url(../images/blogBG.png); width: 100%; height: 100%; position: absolute; right: 0; top: 0; background-size: 100% 100%; opacity: 0.5; }
+.contactArea { background: #fff; border: 1px solid #ddd; border-radius: 3px; margin: 0 0 30px; padding: 50px 40px 50px; position: relative; z-index: 1; }
+.contactArea:before { content: ""; background: #fff url(../images/blogBG.png); width: 100%; height: 100%; position: absolute; right: 0; top: 0; background-size: 100% 100%; opacity: 0.5; z-index: -1; }
 .contactLeft .form-group { margin-bottom: 30px; position: relative; }
 .contactLeft label.error { position: absolute; left: 0; bottom: -34px; color: #ff0000;	font-size: 13px; }
 .contactLeft label { font-family: 'SFProDisplay-Regular'; font-size: 16px; line-height: 21.3px; color: #000; margin: 0 0 10px; }
