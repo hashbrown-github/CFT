@@ -37,9 +37,9 @@ a:hover, a:focus { text-decoration: none; }
 
 /* START form */
 .form-control { background-color: #fff; border-radius: 3px; border: 1px solid #ededed; color: #000; font-size: 14px; font-family: 'SFProDisplay-Regular'; box-shadow: none; }
-.form-control::-webkit-input-placeholder { color: #383a47; opacity: 0.7; }
-.form-control::-moz-placeholder { color: #383a47; opacity: 0.7; }
-.form-control::-ms-input-placeholder { color: #383a47; opacity: 0.7; }
+.form-control::-webkit-input-placeholder { color: #000; opacity: 0.7; }
+.form-control::-moz-placeholder { color: #000; opacity: 0.7; }
+.form-control::-ms-input-placeholder { color: #000; opacity: 0.7; }
 .form-control:focus { box-shadow: none; }
 .form-control[readonly] { background-color: #fff; }
 .btn.focus, .btn:focus { outline: 0; box-shadow: none; }
@@ -47,10 +47,10 @@ a:hover, a:focus { text-decoration: none; }
 
 
 /* START BUTTON */
-.btnTheme { background: #ec5b24; box-shadow: none; border: 1px solid #ec5b24; border-radius: 3px; color: #fff; font-size: 15px; line-height: 20px; padding: 10px 25px;
+.btnTheme { background: #ec5b24; box-shadow: none; border: 1px solid #ec5b24; border-radius: 3px; color: #fff; font-size: 15px; line-height: 20px; padding: 9px 25px;
 text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
 .btnTheme:hover, .btnTheme:focus { background: #ec5b24; box-shadow: none; border: 1px solid #ec5b24; color: #fff; }
-.btnTransparent { background: #fff; box-shadow: none; border: 1px solid #000; border-radius: 3px; color: #000; font-size: 15px; line-height: 20px; padding: 10px 25px;
+.btnTransparent { background: #fff; box-shadow: none; border: 1px solid #000; border-radius: 3px; color: #000; font-size: 15px; line-height: 20px; padding: 9px 25px;
 text-decoration: none; transition: all 0.3s ease-in-out 0s; position: relative; }
 .btnTransparent:hover, .btnTransparent:focus { background: #fff; box-shadow: none; border: 1px solid #000; color: #000; }
 /* END BUTTON */
@@ -189,14 +189,14 @@ background-position: 90% center; background-repeat: no-repeat; background-size: 
 .bannerForm .form-control::-moz-placeholder { color: #000; opacity: 1; }
 .bannerForm .form-control::-ms-input-placeholder { color: #000; opacity: 1; }
 .bannerBtn { width: 100px; }
-.bannerBtn .btn { padding: 8px 20px; font-size: 16px; line-height: 22px; border-radius: 3px; text-align: center; position: relative; width: 100%; }
+.bannerBtn .btn { width: 100%; }
 .dateInner .input-group { margin: 0; border-radius: 3px; background: #fff; border: 1px solid #ededed; position: relative; }
 .dateInner .form-control { padding: 8px 12px 9px; }
 .dateInner .input-group-text { padding: 0; background-color: transparent; border: none; }
 .dateInner span i { position: absolute; z-index: 1; top: 2px; right: 0; font-size: 20px; height: 40px; color: rgb(0 0 0 / 19%); padding: 6px 10px; line-height: 24px; cursor: pointer; }
 .datepicker { padding: 4px; width: 250px; }
 .datepicker td, .datepicker th { width: 34px !important; height: 34px !important; }
-.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover { background: #383a47 !important; }
+.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover { background: #000 !important; }
 .datepicker table tr td.today, .datepicker table tr td.today:hover, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled:hover { background: #eee !important; color: #000; }
 .dateInner input[type="date"]::-webkit-calendar-picker-indicator { opacity: 0; }
 .dateInner input[type="date"]:before { content: "\e916"; font-family: 'Material Symbols Outlined'; font-weight: 400; position: absolute; top: 6px;
@@ -434,9 +434,7 @@ overflow: hidden; position: relative; padding: 100px 0 60px; width: 100%; }
 .addressFooter ul li span { float: left; width: 34px; position: relative; vertical-align: middle; }
 .addressFooter ul li img { color: #fff; width: auto; }
 .addressFooter ul li i.fas.fa-phone { transform: translate(-50%, -50%) rotate(90deg); }
-.addressFooter ul li p { font-size: 14px; line-height: 18.6px; margin: 0; color: #e4e8f3; padding-left: 34px; }
-
-
+.addressFooter ul li p { font-size: 14px; line-height: 18.6px; margin: 0; color: #fff; padding-left: 34px; }
 .copy { width: 100%; background: transparent; }
 .copyInner { text-align: center; width: 100%; padding: 30px 0; border-top: 1px solid rgb(255 255 255 / 20%); }
 .copyInner p { color: #fff; font-size: 14px; line-height: 18.6px; margin: 0; }
@@ -555,7 +553,7 @@ color: #000; font-size: 16px; height: 46px; line-height: 21.3px; }
 .notificationsOuter { background: #fff; border: 1px solid #d1d1d1; padding: 0; }
 .notificationsHeading { padding: 35px 30px 30px; position: relative; border-bottom: 1px solid #d1d1d1; display: inline-block; width: 100%; }
 .notificationsHeading h3 { font-size: 20px; line-height: 26.6px; font-family: 'SFProDisplay-Medium'; margin: 0 0 10px; }
-.notificationsHeading p { color: #444; font-size: 14px; line-height: 18.6px; margin: 0 0 0; font-family: 'SFProDisplay-Regular'; }
+.notificationsHeading p { color: #444; font-size: 14px; line-height: 18.6px; margin: 0; font-family: 'SFProDisplay-Regular'; }
 .notificationsInner { padding: 20px 30px 20px; position: relative; border-bottom: 1px solid #d1d1d1; display: inline-block; width: 100%; }
 .notificationsInner.bgRed { background: #FFF7F4; }
 .notificationsInner:last-child { border-bottom: none; }
@@ -621,11 +619,12 @@ color: #000; font-size: 16px; height: 46px; line-height: 21.3px; }
 .bannerPage h2 { color: #000; font-size: 30px; line-height: 40px; margin: 0 0 30px; font-family: 'SFProDisplay-Bold'; }
 .bannerPageInner { padding: 0; position: relative; }
 .bannerPage .form-group { margin-bottom: 15px; position: relative; }
+.bannerPage .bannerFromTo { width: 240px; }
 /* END bannerPage */
 
 
 /* START flightLeft */
-.flightResultMain { padding: 70px 0; }
+.flightResultMain { padding: 70px 0 40px; }
 .filterLeft { margin: 0 0 30px; }
 .filterLeftHeading { padding: 0 0 10px; border-bottom: 1px solid #e2e2e2; }
 .filterLeftHeading h3 { font-size: 18px; line-height: 24px; margin: 0; font-family: 'SFProDisplay-Medium'; display: inline-block; }
@@ -682,7 +681,7 @@ outline: none; border-radius: 50%; width: 14px; height: 14px; top: -5px; }
 .flightRightList { width: 75%; }
 .flightRightDataInner { border: 1px solid #e2e2e2; padding: 20px 15px 20px; margin: 0 0 15px; border-radius: 2px; display: flex; align-items: center; }
 .flightRightDataInner ul { display: flex; flex-wrap: wrap; gap: 30px; margin: 0 0 30px; }
-.flightRightDataInner ul:last-child {  margin: 0; }
+.flightRightDataInner ul:last-child { margin: 0; }
 .flightRightDataInner ul li { margin: 0; }
 .flightRightDataInner ul li:first-child { width: calc(110px - 16px); }
 .flightRightDataInner ul li:nth-child(2) { width: calc(25% - 16px); text-align: right; }
@@ -692,7 +691,7 @@ outline: none; border-radius: 50%; width: 14px; height: 14px; top: -5px; }
 .flightRightDataInner ul li .img_sec { text-align: center; margin: 0 0 5px; }
 .flightRightDataInner ul li .img_sec img { width: 38px; }
 .flightRightDataInner ul li:first-child h4 { color: #000; font-size: 12px; line-height: 17px; font-family: 'SFProDisplay-Regular'; text-align: center; margin: 0; }
-.flightRightDataInner ul li h5 {  margin: 0 0 5px; font-size: 18px; line-height: 24px; color: #000; font-family: 'SFProDisplay-Medium'; }
+.flightRightDataInner ul li h5 { margin: 0 0 5px; font-size: 18px; line-height: 24px; color: #000; font-family: 'SFProDisplay-Medium'; }
 .flightRightDataInner ul li h4 { margin: 0 0 5px; color: #000; font-size: 12px; line-height: 17px; font-family: 'SFProDisplay-Regular'; }
 .flightRightDataInner ul li p { margin: 0; color: #000; font-size: 12px; line-height: 17px; font-family: 'SFProDisplay-Regular'; }
 .flightRange { margin: 0; position: relative; text-align: center; }
@@ -720,7 +719,7 @@ bottom: -15px; transform: translate(-50%, 0); border: 1px solid #ec5b24; }
 .accContentInner { display: inline-block; width: 100%; margin: 0; }
 .baggage { margin: 0 0 20px; display: inline-block; width: 100%; }
 .baggage p { font-size: 12px; line-height: 16px; margin: 0; }
-.baggage p strong { font-family: 'SFProDisplay-Regular'; color: #7B7B7B;}
+.baggage p strong { font-family: 'SFProDisplay-Regular'; color: #7b7b7b; }
 .baggage img.companyName { width: 30px; margin-right: 10px; }
 .baggage span { float: right; padding: 6px 12px; background: #fcfcfc; border: 1px solid #e2e2e2; vertical-align: middle;
 font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Medium'; position: relative; }
@@ -735,7 +734,7 @@ font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Medium'; position
 .accordionList ul li h4 { margin: 0 0 5px; color: #000; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; }
 .accordionList ul li h5 { font-size: 16px; line-height: 21.3px; color: #000; margin: 0 0 5px; }
 .accordionList ul li h6 { margin: 0; color: #000; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; }
-.accordionList ul li p { margin: 0 0 5px; color: #7B7B7B; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; }
+.accordionList ul li p { margin: 0 0 5px; color: #7b7b7b; font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Regular'; }
 .dottedAccordionRange { margin: 0; position: relative; text-align: center; }
 .dottedRangeLine { height: 1px; border-bottom: 2px solid #ec5b24; margin: 0 auto 3px; width: 80px; }
 .accordionList ul li .flightRange p { text-align: center; position: relative; display: inline-block; margin: 0 0 10px; }
@@ -749,7 +748,7 @@ font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Medium'; position
 
 
 /* START rightBarSummary */
-.rightBarSummary { background: #FFF7F4; border: 1px solid #e2e2e2; border-radius: 2px; font-family: 'SFProDisplay-Regular'; }
+.rightBarSummary { background: #FFF7F4; border: 1px solid #e2e2e2; border-radius: 2px; font-family: 'SFProDisplay-Regular'; margin: 0 0 30px; }
 .headingRightSummary { padding: 15px 15px 0; margin: 0; }
 .headingRightSummary h3 { margin: 0; font-size: 18px; line-height: 24px; font-family: 'SFProDisplay-Bold'; color: #000; }
 .totalRightData { padding: 15px 15px 20px; }
@@ -779,7 +778,7 @@ font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Medium'; position
 .flightName { display: flex; align-items: center; }
 .flightName figure { padding: 0; margin: 0 11px 5px 0; width: 32px; height: 32px; display: block; }
 .flightName img { width: 100%; object-fit: cover; }
-.flightNameRight p { color: #7B7B7B; font-size: 14px; line-height: 18.6px; font-family: 'SFProDisplay-Regular'; margin: 0; }
+.flightNameRight p { color: #7b7b7b; font-size: 14px; line-height: 18.6px; font-family: 'SFProDisplay-Regular'; margin: 0; }
 .flightNameRight p span { color: #000; font-family: 'SFProDisplay-Medium'; }
 .headingSummary { margin: 0 0 20px; display: inline-block; width: 100%; }
 .headingSummary h3 { font-family: 'SFProDisplay-Medium'; font-size: 18px; line-height: 24px; margin: 0 0 10px; }
@@ -808,9 +807,9 @@ font-size: 12px; line-height: 16px; font-family: 'SFProDisplay-Medium'; position
 /* END accordionSummaryMain */
 .accordionSummaryMain { margin: 0 0 30px; display: inline-block; width: 100%; }
 .accordionSummary { background: rgb(255, 255, 255); border: 1px solid #e2e2e2; margin: 0 0 15px; display: inline-block; width: 100%; }
-.accordionHeader { padding: 15px 20px; border-bottom: 1px solid #e2e2e2; }
+.accordionHeader { padding: 15px 15px; border-bottom: 1px solid #e2e2e2; }
 .accordionHeader h2 { color: #000; font-size: 16px; line-height: 21.3px; font-family: 'SFProDisplay-Regular'; margin: 0; }
-.passengerData { background: #fff; padding: 10px 20px; }
+.passengerData { background: #fff; padding: 10px 15px; }
 .firstPartForm { display: flex; flex-wrap: wrap; gap: 0 15px; margin: 10px 0 0; }
 .firstPartForm .form-group { position: relative; margin: 0 0 15px; }
 .firstPartForm label { margin: 0 0 5px; font-size: 14px; line-height: 18.6px; display: block; }
@@ -841,21 +840,26 @@ font-size: 14px; padding: 10px 12px; height: 40px; position: relative; }
 /* END accordionSummaryMain */
 
 
-/* START SummaryContactMain */
-.SummaryContactMain { margin: 0 0 40px; display: inline-block; width: 100%; }
-.SummaryContactInner { border: 1px solid #e2e2e2; margin: 0 0 15px; padding: 25px 20px 15px; }
-.SummaryContactInner .form-group { position: relative; margin: 0 0 15px; }
-.SummaryContactInner label { margin: 0 0 5px; font-size: 14px; line-height: 18.6px; display: block; font-family: 'SFProDisplay-Regular'; }
-.SummaryContactInner .form-control { background-color: #fff; border: 1px solid #e2e2e2; border-radius: 2px; box-shadow: none; color: #000; font-size: 14px;
+/* START summaryContactMain */
+.summaryContactMain { margin: 0 0 40px; display: inline-block; width: 100%; }
+.summaryContactInner { border: 1px solid #e2e2e2; margin: 0 0 15px; padding: 25px 15px 15px; }
+.summaryContactInner .form-group { position: relative; margin: 0 0 15px; width: 600px; max-width: 100%; }
+.summaryContactInner label { margin: 0 0 5px; font-size: 14px; line-height: 18.6px; display: block; font-family: 'SFProDisplay-Regular'; }
+.summaryContactInner .form-control { background-color: #fff; border: 1px solid #e2e2e2; border-radius: 2px; box-shadow: none; color: #000; font-size: 14px;
 padding: 10px 12px; height: 40px; position: relative; }
-.SummaryContactInner textarea.form-control { min-height: 80px; resize: none; }
-/* END SummaryContactMain */
+.summaryContactInner textarea.form-control { min-height: 80px; resize: none; }
+.summaryContactInner .summaryPhone { display: flex; gap: 0 10px; }
+.summaryContactInner .summaryPhone .form-control:first-child { width: 150px; }
+.summaryContactInner .form-control::-webkit-input-placeholder{ color: #000; }
+.summaryContactInner .form-control::-moz-placeholder { color: #000; }
+.summaryContactInner .form-control::-ms-input-placeholder { color: #000; }
+/* END summaryContactMain */
 
 
 /* START informationMain */
 .informationMain { margin: 0 0 30px; display: inline-block; width: 100%; }
 .informationMain .headingSummary h3 { margin: 0; }
-.informationInner { border: 1px solid #e2e2e2; margin: 0; padding: 25px 20px; }
+.informationInner { border: 1px solid #e2e2e2; margin: 0; padding: 25px 15px; }
 .informationInner ul { padding-left: 15px; margin: 0; }
 .informationInner ul li { list-style-type: square; font-family: 'SFProDisplay-Regular'; font-size: 16px; line-height: 21.3px; color: #000; margin: 0 0 15px; }
 .informationInner ul li:last-child { margin-bottom: 0; }
@@ -1052,28 +1056,28 @@ font-family: 'SFProDisplay-Regular'; color: #000; align-items: center; position:
 
 /* START blogBanner */
 .blogBanner { background: #fff; height: 600px; width: 100%; }
-.blogBanner figure { height: 600px; width: 100%; }
+.blogBanner figure { width: 100%; }
 .blogBanner figure img { object-fit:cover; height: 600px; width: 100%; }
 /* END blogBanner */
 
 
 /* START blogSingle */
-.blogSingle { background: #fff; overflow: hidden; position: relative; padding: 60px 0; width: 100%; }
+.blogSingle { background: #fff; overflow: hidden; position: relative; padding: 60px 0 50px; width: 100%; }
 .blogSingleHeading { border-bottom: 1px solid #ddd; margin: 0 0 50px; padding: 0 0 50px; text-align: center; }
-.blogSingleHeading h2 { font-size: 53px; line-height: 65px; color: #000; margin: 0;  
-text-align: center; font-family: 'SFProDisplay-Bold'; /* border-bottom: 1px solid #ddd; margin: 0 0 40px; padding-bottom: 40px; */ }
-.blogSingleHeading h3 { font-size: 28px; line-height: 1.35em; margin-bottom: 24px; color: #000; font-family: 'SFProDisplay-Regular'; }
-.blogSingleHeading p { font-size: 20px; line-height: 1.4em; margin-bottom: 10px; font-weight: 400; font-style: normal; color: #000; font-family: 'SFProDisplay-Semibold'; }
+.blogSingleHeading h2 { font-size: 53px; line-height: 65px; color: #000; margin: 0; text-align: center; 
+font-family: 'SFProDisplay-Bold'; /* border-bottom: 1px solid #ddd; margin: 0 0 40px; padding-bottom: 40px; */ }
+.blogSingleHeading h3 { font-size: 28px; line-height: 1.35em; margin: 0 0 24px; color: #000; font-family: 'SFProDisplay-Regular'; }
+.blogSingleHeading p { font-size: 20px; line-height: 1.4em; margin: 0 0 10px; font-weight: 400; font-style: normal; color: #000; font-family: 'SFProDisplay-Semibold'; }
 .blogSingleLeft h4 { font-size: 20px; line-height: 1.6em; color: #000; text-align: center; font-family: 'SFProDisplay-Regular'; font-style: normal; margin: 0 0 30px; }
-.blogImage_2 { margin: 0 0 24px;}
+.blogImage_2 { margin: 0 0 24px; }
 .blogImage_2 img { width: 100%; margin: 0; }
 .blogImage_2 + h4 { margin-top: 0; }
 .blogImage_2 + p { margin-top: 0; }
-.blogSingleInner h4 { font-size: 30px; margin-top: 40px; line-height: 40px; font-weight: bold; color: #000; margin-bottom: 24px; font-family: 'SFProDisplay-Bold'; }
-.blogSingleInner p { font-size: 20px; line-height: 1.6em; margin-bottom: 24px; color: #000; font-family: 'SFProDisplay-Regular'; font-weight: 400; font-style: normal; }
+.blogSingleInner h4 { font-size: 30px; line-height: 40px; font-weight: bold; color: #000; margin: 0 0 24px; font-family: 'SFProDisplay-Bold'; }
+.blogSingleInner p { font-size: 20px; line-height: 1.6em; margin: 0 0 24px; color: #000; font-family: 'SFProDisplay-Regular'; font-weight: 400; font-style: normal; }
 .blogSingleInner p strong { font-family: 'SFProDisplay-Bold'; }
 .blogSingleInner ul { list-style: none; padding-left: 0; }
-.blogSingleInner ul li { font-size: 20px; line-height: 1.6em; color: #000; list-style: none; font-family: 'SFProDisplay-Regular'; font-weight: 400; font-style: normal; margin-bottom: 24px; }
+.blogSingleInner ul li { font-size: 20px; line-height: 1.6em; color: #000; list-style: none; font-family: 'SFProDisplay-Regular'; font-weight: 400; font-style: normal; margin: 0 0 24px; }
 .blogSingleInner ul li strong { font-family: 'SFProDisplay-Semibold'; }
 .blogImagePara { display: flex; align-items: flex-start; gap: 0 20px; justify-content: space-between; margin: 30px 0 10px; }
 .blogImagePara figure { width: 45%; }
