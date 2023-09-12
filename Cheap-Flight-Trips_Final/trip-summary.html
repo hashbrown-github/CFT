@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="csrf-token" content="wvpCAxAP4XAMZjJ94zyhGhQdCdgxZY0MxDMHUzr7">
 	<title>:: Trip Summary ::</title>
 	<meta name="title" content="Trip Summary">
 	<meta name="description" content="">
@@ -546,14 +545,14 @@
 										</div>
 									</div>
 									<div class="timingRight">
-										<h6><span>Chandigarh</span> | Chandigarh Airport</h6>
-										<p>2H 20M</p>
-										<h6><span> Mumbai</span> | Chhatrapati Shivaji International Airport, Terminal 2</h6>
+										<h6><span>Paris</span> Ch. De Gaulle, Terminal 2E</h6>
+										<p>8H 20M</p>
+										<h6><span> Toronto</span> | Pearson Intl-ON, Terminal 3</h6>
 									</div>
 								</div>
 
 								<div class="changesPlan">
-									<p> <span>Changes of Planes </span> | 14H 50M Layover in Mumbai</p>
+									<p> <span>Changes of Planes </span> | 23H 15M Layover in Paris</p>
 								</div>
 							</div>
 
@@ -616,7 +615,7 @@
 									</div>
 									<div class="timingRight">
 										<h6><span>Chandigarh</span> | Chandigarh Airport</h6>
-										<p>2H 20M</p>
+										<p>9H 30M</p>
 										<h6><span> Mumbai</span> | Chhatrapati Shivaji International Airport, Terminal 2</h6>
 									</div>
 								</div>
@@ -645,14 +644,14 @@
 										</div>
 									</div>
 									<div class="timingRight">
-										<h6><span>Chandigarh</span> | Chandigarh Airport</h6>
-										<p>2H 20M</p>
-										<h6><span> Mumbai</span> | Chhatrapati Shivaji International Airport, Terminal 2</h6>
+										<h6><span>Paris</span> Ch. De Gaulle, Terminal 2E</h6>
+										<p>8H 20M</p>
+										<h6><span> Toronto</span> | Pearson Intl-ON, Terminal 3</h6>
 									</div>
 								</div>
 
 								<div class="changesPlan">
-									<p> <span>Changes of Planes </span> | 14H 50M Layover in Mumbai</p>
+									<p> <span>Changes of Planes </span> | 23H 15M Layover in Paris</p>
 								</div>
 							</div>
 
@@ -660,7 +659,7 @@
 					</div>
 					<!-- END flightSummaryDataMain -->
 
-					<!-- START Acc -->
+					<!-- START accordionSummaryMain -->
 					<div class="accordionSummaryMain">
 						<div class="headingSummary">
 							<h3>Passenger Details</h3>
@@ -817,51 +816,52 @@
 							</div>
 						</div>
 					</div>
-					<!-- END Acc -->
+					<!-- END accordionSummaryMain -->
 
 					
-					<!-- START SummaryContactMain -->
-					<div class="SummaryContactMain">
+					<!-- START summaryContactMain -->
+					<div class="summaryContactMain">
 						<div class="headingSummary">
 							<h3>Contact Details</h3>
 							<p>Kindly fill your personal details to keep you updated with your flights and holidays itinerary.</p>
 						</div>
-						<div class="SummaryContactInner">
-							<div class="row">
-								<div class="col-lg-6">
-									<div class="form-group">
-										<label class="control-label">Phone Number</label>
-										<input name="Phone Number" class="form-control" required="required" type="text">
-									</div>
-									<div class="form-group">
-										<label class="control-label">Email</label>
-										<input name="Email" class="form-control" required="required" type="email">
-									</div>
-									<div class="form-group">
-										<label class="control-label">Address</label>
-										<textarea name="Address" class="form-control" rows="5" required="required"></textarea>
-									</div>
-									<div class="form-group">
-										<label class="control-label">City</label>
-										<input name="City" class="form-control" required="required" type="text">
-									</div>
-									<div class="form-group">
-										<label class="control-label">State</label>
-										<input name="State" class="form-control" required="required" type="text">
-									</div>
-									<div class="form-group">
-										<label class="control-label">Postcode</label>
-										<input name="Postcode" class="form-control" required="required" type="number">
-									</div>
-									<div class="form-group">
-										<label class="control-label">Country</label>
-										<input name="Country" class="form-control" required="required" type="text">
-									</div>
+						<div class="summaryContactInner">
+
+							<div class="form-group">
+								<label class="control-label">Phone Number</label>
+								<div class="summaryPhone">
+									<input placeholder="India(91)" class="form-control" required="required" type="text"/>
+									<input name="Phone Number" class="form-control" required="required" type="text"/>
 								</div>
 							</div>
+							<div class="form-group">
+								<label class="control-label">Email</label>
+								<input name="Email" class="form-control" required="required" type="email"/>
+							</div>
+							<div class="form-group">
+								<label class="control-label">Address</label>
+								<textarea name="Address" class="form-control" rows="5" required="required"></textarea>
+							</div>
+							<div class="form-group">
+								<label class="control-label">City</label>
+								<input name="City" class="form-control" required="required" type="text"/>
+							</div>
+							<div class="form-group">
+								<label class="control-label">State</label>
+								<input name="State" class="form-control" required="required" type="text"/>
+							</div>
+							<div class="form-group">
+								<label class="control-label">Postcode</label>
+								<input name="Postcode" class="form-control" required="required" type="number"/>
+							</div>
+							<div class="form-group">
+								<label class="control-label">Country</label>
+								<input name="Country" class="form-control" required="required" type="text"/>
+							</div>
+							
 						</div>
 					</div>
-					<!-- END SummaryContactMain -->
+					<!-- END summaryContactMain -->
 
 												
 					<!-- START informationMain -->
@@ -883,7 +883,7 @@
 							</ul>
 						</div>
 					</div>
-					<!-- END SummaryContactMain -->
+					<!-- END informationMain -->
 
 					<!-- START checkContinueMain -->
 					<div class="checkContinueMain">
@@ -1008,8 +1008,7 @@
 						<h3>Supports</h3>
 						<ul>
 							<li><a href="privacy_policy.html">Privacy Policy</a></li>
-							<li><a href="#">Supports</a></li>
-							<li><a href="#">Disclaimer</a></li>
+							<li><a href="disclaimer.html">Disclaimer</a></li>
 							<li><a href="terms_and_conditions.html">Terms &amp; Conditions</a></li>
 						</ul>
 					</div>
