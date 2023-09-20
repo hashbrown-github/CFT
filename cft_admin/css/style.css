@@ -170,6 +170,7 @@ padding: 5px 15px; box-shadow: none; transition: all 0.4s; border: 1px solid #dd
 .form-control::-moz-placeholder { color: #000 !important; }
 .form-control::-ms-input-placeholder { color: #000 !important; }
 .btn.focus, .btn:focus { outline: 0; box-shadow: none; }
+.form-select {background-image: url(../images/select_arrow.svg); }
 /* END form */
 
 
@@ -308,7 +309,7 @@ padding: 5px 15px; box-shadow: none; transition: all 0.4s; }
 .dateInner .form-control { background-color: #fff; border-radius: 3px; border: 1px solid #ddd; color: #000; font-size: 14px; height: 42px;
 padding: 5px 15px; box-shadow: none; transition: all 0.4s; position: relative; }
 .dateInner input[type="date"]::-webkit-calendar-picker-indicator { opacity: 0; }
-.dateInner input[type="date"]:before { content: "\e916"; font-family: 'Material Symbols Outlined'; font-weight: 300; position: absolute; top: 5px; right: 9px; color: rgb(0 0 0 / 19%); font-size: 20px; }
+.dateInner input[type="date"]:before { content: "\e916"; font-family: 'Material Symbols Outlined'; font-weight: 300; position: absolute; top: 6px; right: 9px; color: #bbb; font-size: 18px; }
 .dateInner .input-group-text { padding: 0; background-color: transparent; border: none; }
 .dateInner span i { position: absolute; z-index: 1; top: 15px; right: 0; font-size: 18px; height: 40px;
 color: rgb(0 0 0 / 19%); padding: 6px 10px; line-height: 24px; cursor: pointer; }
@@ -517,7 +518,7 @@ background: #fff; display: block; position: absolute; top: -8px; right: 20px; tr
 padding: 5px 15px; box-shadow: none; transition: all 0.4s; border: 1px solid #ddd; position: relative; }
 .profileFormInner .input-group { margin: 0; border-radius: 3px; background: #fff; border: 1px solid #ddd; position: relative; }
 .formGroupDate input[type="date"]::-webkit-calendar-picker-indicator { opacity: 0; }
-.formGroupDate input[type="date"]:before { content: "\e916"; font-family: 'Material Symbols Outlined'; font-weight: 300; position: absolute; top: 9px; right: 9px; color: #000; font-size: 14px; }
+.formGroupDate input[type="date"]:before { content: "\e916"; font-family: 'Material Symbols Outlined'; font-weight: 300; position: absolute; top: 6px; right: 9px; color: #bbb; font-size: 18px; }
 
 .profileFormInner .input-group-text { padding: 0; background-color: transparent; border: none; }
 .profileFormInner span i { position: absolute; z-index: 1; top: 15px; right: 0; font-size: 18px; height: 40px;
