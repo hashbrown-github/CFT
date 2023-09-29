@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cheap Flight Trips: Unbeatable Flight Deals to Top Destinations</title>
 	<meta name="title" content="Cheap Flight Trips: Unbeatable Flight Deals to Top Destinations">
+	<meta name="keywords" content="Flight Booking, Cheap Flight, Cheap Flight Trips, Top Flight Deals, Flight Tickets, Book Flights, Book Cheap Flights, Flight Booking, Travel, Traveling, Affordable Travel">
 	<meta name="description" content="Fly more for less with Cheap Flight Trips. Exclusive travel deals, easy flight booking options, finest destinations, top airlines, and 24/7 personalized assistance.">
     <link async="" rel="canonical" href="http://cheapflighttrips.com/">
 
@@ -15,7 +16,7 @@
 	<link rel="stylesheet" href="css/core.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
 
-</head>
+  </head>
 <body>
 
 <!-- START banner -->	
@@ -26,10 +27,10 @@
 			<div class="headerArea">
 				<div class="headerLeft">
 					<a class="headerLogo" href="index.html">
-						<img src="images/logo_new.svg" alt="Logo"> <span>| Cheap Flight Trips</span>
+						<img src="images/logo_new.svg" alt="Logo"/> <span>| Cheap Flight Trips</span>
 					</a>
 					<a class="headerInnerLogo" href="index.html">
-						<img src="images/logo_grey.svg" alt="Logo"> <span>| Cheap Flight Trips</span>
+						<img src="images/logo_grey.svg" alt="Logo"/> <span>| Cheap Flight Trips</span>
 					</a>
 				</div>
 
@@ -57,6 +58,7 @@
 	<!-- END bannerArea -->
 </section>
 <!-- END banner -->
+
 	
 <!-- START newsBannerMain -->
 <div class="newsBannerMain">
@@ -64,18 +66,22 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-10">	
 				<div class="newsBannerOuter">
-					<img class="newsHeaderImg" src="images/newsHeader.svg" alt="img"> 
+					<img class="newsHeaderImg" src="images/newsHeader.svg" alt="img"/> 
 					<h2>Coming Soon With Great Deals for You!</h2>
 					<h3>Meanwhile, Sign Up for Our <span>Newsletter</span> to Stay Tuned</h3>
 					<div class="newsBannerForm">
 						<div class="form-group">
 							<div class="input-group">
-								<input class="form-control" placeholder="Enter your email..." type="email">
+								<input class="form-control" placeholder="Enter your email..." type="email"/>
 								<span class="input-group-text">
-									<button class="btn btnTheme" type="button">Subscribe</button>
+									<button class="btn btnTheme" type="button" onclick="sucessfunction()">Subscribe <img id="submit_loader" class="loaderBtn" style="display:none;" src="images/loading-gear.gif" alt="Load Icon"></button>
 								</span>
 							</div>
 							<label class="error">Please provide your E-mail address to continue!</label>
+						</div>
+						<div id="show_sucessToast" class="successful_msgT">
+							<p>You have successfully subscribed to the newsletter!</p>
+							<p style="display: none;">You have already subscribed to this newsletter!</p>
 						</div>
 					</div>
 				</div>
@@ -497,11 +503,11 @@
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="aboutRight">
-					<img class="img-fluid about_1" src="images/aeroplane.svg" alt="img"> 
+					<img class="img-fluid about_1" src="images/aeroplane.svg" alt="img"/> 
 					<div class="aboutRightInner">
-						<img class="img-fluid about_2" src="images/shape_1.svg" alt="img">
+						<img class="img-fluid about_2" src="images/shape_1.svg" alt="img"/>
 					
-						<img class="img-fluid" src="images/about.jpg" alt="img" />
+						<img class="img-fluid" src="images/about.jpg" alt="img"/>
 					</div>
 				</div>
 			</div>
@@ -514,7 +520,7 @@
 <section class="sec_2_Main">
 	<div class="container">
 		<div class="row">
-			<div class="col-xl-6 col-lg-8 col-md-12 col-sm-12">
+			<div class="col-xl-6 col-lg-8 col-md-10 col-sm-12">
 				<div class="headingOther">
 					<h2>Travel Unbound</h2>
 					<h3>Book <span>Domestic &amp; International</span> Flights</h3>
@@ -522,10 +528,10 @@
 			</div>
 		</div>
 		<div class="row align-items-center">
-			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+			<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
 				<div class="sec_2_Inner">
 					<figure>
-						<img src="images/city_1.jpg" alt="img" />
+						<img src="images/city_1.jpg" alt="img"/>
 					</figure>
 					<div class="sec_2_Data">
 						<h4>New York City</h4>
@@ -537,7 +543,7 @@
 					</div>
 				</div>	
 			</div>
-			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+			<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
 				<div class="sec_2_Inner">
 					<figure>
 						<img src="images/city_2.jpg" alt="img">
@@ -552,7 +558,7 @@
 					</div>
 				</div>	
 			</div>
-			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+			<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
 				<div class="sec_2_Inner">
 					<figure>
 						<img src="images/city_3.jpg" alt="img">
@@ -567,10 +573,10 @@
 					</div>
 				</div>	
 			</div>
-			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+			<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
 				<div class="sec_2_Inner">
 					<figure>
-						<img src="images/city_4.jpg" alt="img" />
+						<img src="images/city_4.jpg" alt="img"/>
 					</figure>
 					<div class="sec_2_Data">
 						<h4>Miami</h4>
@@ -582,10 +588,10 @@
 					</div>
 				</div>	
 			</div>
-			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+			<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
 				<div class="sec_2_Inner">
 					<figure>
-						<img src="images/city_5.jpg" alt="img" />
+						<img src="images/city_5.jpg" alt="img"/>
 					</figure>
 					<div class="sec_2_Data">
 						<h4>San Francisco</h4>
@@ -597,10 +603,10 @@
 					</div>
 				</div>	
 			</div>
-			<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+			<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
 				<div class="sec_2_Inner">
 					<figure>
-						<img src="images/city_6.jpg" alt="img" />
+						<img src="images/city_6.jpg" alt="img"/>
 					</figure>
 					<div class="sec_2_Data">
 						<h4>Las Vegas</h4>
@@ -632,7 +638,7 @@
 			<div class="col-lg-8 col-md-12 col-sm-12">
 				<div class="sec_3_Inner">
 					<figure>
-						<img src="images/best_places_1.jpg" alt="img" />
+						<img src="images/best_places_1.jpg" alt="img"/>
 					</figure>
 					<div class="sec_3_Data">
 						<h4>Washington, D.C.</h4>
@@ -647,7 +653,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="sec_3_Inner">
 					<figure>
-						<img src="images/best_places_2.jpg" alt="img" />
+						<img src="images/best_places_2.jpg" alt="img"/>
 					</figure>
 					<div class="sec_3_Data">
 						<h4>Seattle</h4>
@@ -662,7 +668,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="sec_3_Inner">
 					<figure>
-						<img src="images/best_places_3.jpg" alt="img" />
+						<img src="images/best_places_3.jpg" alt="img"/>
 					</figure>
 					<div class="sec_3_Data">
 						<h4>Boston</h4>
@@ -677,7 +683,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="sec_3_Inner">
 					<figure>
-						<img src="images/best_places_4.jpg" alt="img" />
+						<img src="images/best_places_4.jpg" alt="img"/>
 					</figure>
 					<div class="sec_3_Data">
 						<h4>Houston</h4>
@@ -692,7 +698,7 @@
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<div class="sec_3_Inner">
 					<figure>
-						<img src="images/best_places_5.jpg" alt="img" />
+						<img src="images/best_places_5.jpg" alt="img"/>
 					</figure>
 					<div class="sec_3_Data">
 						<h4>New York City</h4>
@@ -740,8 +746,8 @@
 			<div class="col-lg-6 col-md-6 col-sm-12">
 				<div class="bookNextRight">
 					<div class="bookRightInner">
-						<img class="img-fluid bookNext_1" src="images/shape_1.svg" alt="icon" />
-						<img class="img-fluid" src="images/bookingNext.jpg" alt="cft" />
+						<img class="img-fluid bookNext_1" src="images/shape_1.svg" alt="icon"/>
+						<img class="img-fluid" src="images/bookingNext.jpg" alt="cft"/>
 					</div>
 				</div>
 			</div>
@@ -758,7 +764,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-5 col-md-12 col-sm-12">
 				<div class="staticsLeft">
-					<img class="img-fluid" src="images/statics.jpg" alt="img" />
+					<img class="img-fluid" src="images/statics.jpg" alt="img"/>
 				</div>
 			</div>
 			<div class="col-lg-7 col-md-12 col-sm-12">
@@ -774,7 +780,7 @@
 					<div class="staticsOuter">
 						<div class="staticsInner">
 							<figure>
-								<img src="images/partner.svg" alt="partner">
+								<img src="images/partner.svg" alt="Partner Flights"/>
 							</figure>
 							<div class="staticsData">
 								<h4><span class="counter" data-to="500" data-speed="7000">199</span>+</h4>
@@ -783,7 +789,7 @@
 						</div>
 						<div class="staticsInner">
 							<figure>
-								<img src="images/flight_booked.svg" alt="partner">
+								<img src="images/flight_booked.svg" alt="Holiday Packages"/>
 							</figure>
 							<div class="staticsData">
 								<h4><span class="counter" data-to="200" data-speed="7000">50</span>+</h4>
@@ -792,7 +798,7 @@
 						</div>
 						<div class="staticsInner">
 							<figure>
-								<img src="images/destination.svg" alt="partner">
+								<img src="images/destination.svg" alt="Destinations"/>
 							</figure>
 							<div class="staticsData">
 								<h4><span class="counter" data-to="300" data-speed="7000">30</span>+</h4>
@@ -801,7 +807,7 @@
 						</div>
 						<div class="staticsInner">
 							<figure>
-								<img src="images/happy_traveller.svg" alt="partner">
+								<img src="images/happy_traveller.svg" alt="Happy Travelers"/>
 							</figure>
 							<div class="staticsData">
 								<h4><span class="counter" data-to="150" data-speed="7000">150</span>+</h4>
@@ -887,7 +893,7 @@
 							<p><span>04</span>Sep</p>
 						</div>
 						<figure>
-							<img class="img-fluid" src="images/blog_1.jpg" alt="blog" />
+							<img class="img-fluid" src="images/blog_1.jpg" alt="blog"/>
 						</figure>
 						<div class="blogData">
 							<h4>World Wise</h4>
@@ -903,7 +909,7 @@
 							<p><span>12</span>Sep</p>
 						</div>
 						<figure>
-							<img class="img-fluid" src="images/blog_2.jpg" alt="blog" />
+							<img class="img-fluid" src="images/blog_2.jpg" alt="blog"/>
 						</figure>
 						<div class="blogData">
 							<h4>Tips On Trips</h4>
@@ -920,7 +926,7 @@
 							<p><span>18</span>Sep</p>
 						</div>
 						<figure>
-							<img class="img-fluid" src="images/blog_3.jpg" alt="blog" />
+							<img class="img-fluid" src="images/blog_3.jpg" alt="blog"/>
 						</figure>
 						<div class="blogData">
 							<h4>What's New</h4>
@@ -941,7 +947,7 @@
 		<div class="modal-content">
 			<div class="modal-body">
 				<div class="waitingModal_cont">
-					<img src="images/relaxing-img.svg" alt="Relaxing Image">
+					<img src="images/relaxing-img.svg" alt="Relaxing Image"/>
 					<h5>Please wait… We are finding great deals for you</h5>
 					<ul>
 						<li>IXC - SIN <div class="modalLine"></div><span>Mon, Mar 06 2023</span></li>
@@ -971,7 +977,7 @@
 					<div class="newsletterInner">
 						<div class="form-group">
 							<div class="input-group">
-								<input class="form-control" placeholder="Your Email..." type="email">
+								<input class="form-control" placeholder="Your Email..." type="email"/>
 								<span class="input-group-text">
 									<button class="btn btnTheme" type="button">Subscribe</button>
 								</span>
@@ -985,7 +991,7 @@
 			<div class="row">
 				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 footerRES">
 					<div class="footerInner">
-						<a class="logoFooter" href="index.html"><img src="images/logo.png" alt="logo"></a>
+						<a class="logoFooter" href="index.html"><img src="images/logo.png" alt="logo"/></a>
 						<p>Find, Compare &amp; Fly.</p>
 						<p>At Cheap Flight Trips, we specialize in making your flight booking experience seamless and budget friendly.</p>
 						<div class="socialIcon">
@@ -1016,7 +1022,6 @@
 							<li><a href="privacy_policy.html">Privacy Policy</a></li>
 							<li><a href="disclaimer.html">Disclaimer</a></li>
 							<li><a href="terms_and_conditions.html">Terms &amp; Conditions</a></li>
-							<li><a href="sitemap.html">Sitemap</a></li>
 						</ul>
 					</div>
 				</div>
@@ -1026,15 +1031,15 @@
 						<div class="addressFooter">
 							<ul>
 								<li>
-									<span><img src="images/address-icon.svg" alt="icon"></span>
+									<span><img src="images/address-icon.svg" alt="address"/></span>
 									<p>Robert Joe Albillar,Manager<br>CHEAP FLIGHT TRIPS LLC <br>44047 North 43rd Avenue #74185 <br>Phoenix, Arizona 85087</p>
 								</li>
 								<li>
-									<span><img src="images/phone-icon.svg" alt="icon"></span>
+									<span><img src="images/phone-icon.svg" alt="phone"/></span>
 									<p>+1 (623) 670-8030</p>
 								</li>
 								<li>
-									<span><img src="images/email-icon.svg" alt="icon"></span>
+									<span><img src="images/email-icon.svg" alt="email"/></span>
 									<p>contact@cheapflighttrips.com</p>
 								</li>
 							</ul>
@@ -1058,7 +1063,7 @@
 </footer>
 <!-- END FOOTER -->
 
-	
+
 <!-- js -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
@@ -1289,6 +1294,16 @@ $(document).click(function(e) {
 	})
 </script>
 <!-- END tooltips -->
+
+<!-- START show_sucessToast -->
+<script>
+    function sucessfunction() {
+      var x1 = document.getElementById("show_sucessToast");
+      x1.classList.add('show');
+      setTimeout(function(){ x1.classList.remove('show'); }, 3000);
+    }
+</script>
+<!-- END show_sucessToast -->
 
 
 </body>
