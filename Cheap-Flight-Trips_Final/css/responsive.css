@@ -90,7 +90,6 @@
     /* END aboutMain */
     
     /* START aboutPageMain */
-    .aboutPageMain { padding: 20px 0 40px; }
     .aboutPageLeftInner { width: 330px; }
     .aboutPageLeft img.about_small { right: 10px; }
     .aboutPageLeftInner img.about_2 { left: -20px; top: -20px; }
@@ -206,15 +205,21 @@
     .bookLeftInner h4:after { width: 8px; height: 8px; left: -16px; }
     /* END bookNextMain */
 
+
+
+
     /* START aboutPageMain */
-    .aboutPageMain { padding: 100px 0 30px; }
-    .aboutPageLeft { margin: 0 0 120px; }
-    .aboutPageLeftInner { width: 270px; }
-    .aboutPageLeft img.about_small { width: 180px; bottom: -50px; }
+    .aboutListInner { width: 100%; }
+    .aboutPageMain { padding: 120px 0 40px; }
+    .aboutPageLeft { margin: 0 auto 100px; width: 480px; max-width: 100%; text-align: center; }
+    .aboutPageLeftInner { width: 430px; }
+    .aboutPageLeftInner img.about_2 { left: -20px; top: -20px; }
+    .aboutPageLeftInner:before { left: 20px; top: 20px; }
+    .aboutPageLeft img.about_small { right: -20px; width: 180px; bottom: -50px; }
     .aboutPageRight { top: 0; }
-    .aboutPageLeftInner img.about_2 { left: -10px; top: -10px; }
     .missionMain { padding: 20px 0 70px; }
     /* END aboutPageMain */
+    
 
     .galleryMain { padding: 70px 0 40px; }
     /* START banner */
@@ -255,8 +260,6 @@
 
     /* START blogMain */
     .blogMain { padding: 70px 0 40px; background-size: cover; }
-    .blogMain .headingOther { text-align: center; }
-    .blogMain .headingOther h2 { display: inline-block; }
     .blogInner figure img { height: 280px; }
     .blogData { padding: 20px 20px; }
     .blogData h4 { font-size: 14px; line-height: 18.6px; }
@@ -300,6 +303,8 @@
     .newsBannerMain { padding: 15px 0 0; }
     /* END newsBannerMain */
 
+    .blogMain .headingOther { text-align: center; }
+    .blogMain .headingOther h2 { display: inline-block; }
     .blogBanner { height: 400px; }
     .blogBanner figure img { height: 400px; }
 
@@ -325,16 +330,13 @@
     .bookRightInner { width: 422px; max-width: 100%; }
     /* END bookNextMain */
 
+    /* START FAQ */
+    .faq_content .accordion-button:not(.collapsed) h4 { font-size: 15px; line-height: 20px; }
+    .faq_content .accordion-body { font-size: 14px; line-height: 18.6px; }
+    /* END FAQ */
 
     /* START aboutPageMain */
-    .aboutListInner { width: 100%; }
-    .aboutPageMain { padding: 130px 0 40px; }
-    .aboutPageMain .headingOther { position: absolute; top: 70px; }
-    .aboutPageRight { position: unset; }
-    .aboutPageLeft { margin: 50px 0 90px; text-align: center; }
-    .aboutPageLeftInner { width: 430px; }
-    .aboutPageLeftInner:before { left: 10px; top: 10px; }
-    .aboutPageLeft img.about_small { right: 40px; width: 180px; bottom: -50px; }
+    .aboutPageMain { padding: 90px 0 40px; }
     .missionMain { padding: 20px 0 50px; }
     .missionInner { padding-right: 0; }
     .missionInner_2 { padding-left: 0; }
@@ -343,6 +345,7 @@
 
     /* START Home Page */ 
     .sec_2_Main { padding: 30px 0 20px; }
+    .sec_2_Data { padding-left: 120px; }
     .sec_3_Main { padding: 50px 0 20px; }
     .galleryMain { padding: 60px 0 40px; }
     .staticsRight { margin-bottom: 0; }
@@ -351,8 +354,9 @@
     .headingOther h2:before { width: 45px; }
     .headingOther h3 { font-size: 36px; line-height: 46px; }
     .headingOther p { font-size: 15px; line-height: 20px; }
-    .blogInner figure img { height: auto; }
     .blogInner { width: 360px; max-width: 100%; margin: 0 auto 80px; display: block; }
+    .blogInner figure img { height: 300px; }
+    .galleryInner { margin: 0 0 15px; }
     /* END Home Page */
 
     /* START Footer */
@@ -428,7 +432,6 @@
     .termsMain { padding: 50px 0; }
     .logInArea { padding: 100px 50px; }
 
-
     .waitingModal .modal-dialog { margin: 30px auto 10px; min-width: 90%; max-width: 532px; position: relative; left: auto; top: auto; transform: unset !important; }
     .waitingModal_cont ul { width: 80%; }
     .waitingModal .modal-body { padding: 30px 15px; }
@@ -439,12 +442,11 @@
     .blogBanner { height: 300px; }
     .blogBanner figure img { height: 300px; }
     .headingOther h3 { font-size: 30px; line-height: 40px; margin-bottom: 10px; }
-
+    .footerInner > p { padding-right: 10%; }
 
     /* START newsBannerMain */
     .newsBannerOuter h2 { font-size: 28px; line-height: 37.3px; }
     .newsBannerOuter h3 { font-size: 18px; line-height: 24px; }
-    
     .newsBannerForm .btn { font-size: 14px; }
     .newsBannerForm .input-group { display: block; background: transparent; }
     .newsBannerForm .form-control { background: #fff; width: 100%; font-size: 14px; margin: 0 0 25px; }
@@ -468,19 +470,27 @@
     /* START aboutMain */ 
     .aboutRight { margin: 150px 0 70px; }
     .aboutRightInner { width: auto; }
+    .aboutPageLeft img.about_small { right: 25px; }
     .aboutRight img.about_1 { top: -60px; width: 85%; }
     /* END aboutMain */ 
 
     /* START aboutPageMain */
+    .aboutPageLeft { width: 400px; margin: 0 auto 70px; }
+    .aboutPageLeftInner { width: 320px; }
+    .aboutPageLeft img.about_small { right: 0; width: 150px; }
     .missionMain .headingOther h3, .aboutPageMain .headingOther h3 { font-size: 30px; line-height: 40px; }
-    .aboutPageLeftInner { width: 400px; max-width: 100%; }
-    .missionMain { padding: 10px 0 40px; }
     /* END aboutPageMain */
 
     /* START Footer */
     .newsletterArea { padding: 30px 0; }
     .logoFooter { margin: 0 0 20px; }
     /* END Footer */
+
+    /* START FAQ */
+    .faq_content h2 { font-size: 30px; line-height: 40px; padding-left: 40px; }
+    .faq_content h2:before { width: 30px; }
+    .faq_content h3 { font-size: 24px; line-height: 30px; }
+    /* END FAQ */
 
     /* START termsMain */
     .terms h2 { font-size: 30px; line-height: 40px; padding-left: 40px; }
@@ -510,6 +520,18 @@
 
 
 @media (max-width: 480px) {
+    /* START aboutPageMain */
+    .aboutPageMain { padding: 70px 0 30px; }
+    .aboutPageLeft { width: 350px; }
+    .aboutPageLeftInner { width: 280px; }
+    .aboutPageLeft img.about_small { right: 15px; bottom: -30px; }
+    .aboutPageLeftInner img.about_2 { left: -10px; top: -10px; }
+    .aboutPageLeftInner:before { left: 10px; top: 10px; }
+    .missionMain {
+        padding: 20px 0 30px;
+    }
+    /* END aboutPageMain */
+    
     header { padding: 0; }
     .fixed_header .navbar-nav li.nav-itemBtn { padding-right: 35px; }
     .navbar-nav li.nav-itemBtn { padding-right: 35px; }
@@ -553,7 +575,7 @@
     .sec_2_Data ul li::before { right: 2px; }
     .sec_3_Inner { margin: 0 0 20px; }
     .staticsData h4 { font-size: 28px; line-height: 37.3px; margin: 0 0 5px; }
-    .aboutPageLeft img.about_small { right: 0; } 
+
 
     /* START Footer */
     .newsletterArea { padding: 30px 0 20px; }
@@ -597,4 +619,8 @@
     .newsletterLeft h2 { font-size: 24px; line-height: 32px; }
     .newsletterLeft h3 { font-size: 18px; line-height: 24px; }
     .newsBannerOuter { padding: 15px 15px 5px; }
+    .footerInner > p { padding-right: 0; }
+    .aboutPageLeft { width: 300px; }
+    .aboutPageLeftInner { width: 280px; }
+    .aboutPageLeft img.about_small { right: -10px; }
 }
